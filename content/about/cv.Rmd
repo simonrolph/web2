@@ -1,0 +1,37 @@
+---
+title: "Simon Rolph - CV"
+categories: ["About me"]
+---
+
+### Education
+
+#### 2016 - Present, University of Sheffield, PhD Student
+PhD student at the University of Sheffield, Department of Animal and Plant science. Primary supervisor: Dr Dylan Childs, with supporting supervisors; Dr Rob Salguero-Gómez, Dr Jonathan Potts and Proffessor Rob Freckleton. President of the Animal and Plant Sciences Department PostGrad Soceity (June 2017-current)
+
+#### 2013-2016, University of Exeter
+BSc (Hons) in Conservation Biology and Ecology at University of Exeter (Penryn Campus) 1st Class. Third year modules: Tenerife Field Course, Mathematical Biology and Ecology, Ecology and Evolution of Disease, Marine Spatial Ecology. Second year modules: Iceland Field Course, Mathematics of the Environment, Analysis of Biological Data, Biodiversity and Conservation, Biology of Aquatic Vertebrates, Ecological Consultancy.
+
+### Conferences, Courses and Working Groups
+ * December 2017- Conference: Ecology Across Borders / British Ecological Soceity Annual Meeting in Ghent. Presenting a poster on my work on simulating plant life histroy strategies to guide comparative research of matrix population models.
+ * March 2017 - Course: Matrix Approaches Health Demography (2 weeks), taught by Hal Caswell at the Max Planck Institute for Demographic Research. Introducing methods based on Markov chains, Markov chains with rewards, multistate matrix models, and matrix calculus.
+ * January 2017 - Course: Foundations for Effective Scientific Writing (1 week).
+ * December 2016 - Conference: British Ecological Society Annual Meeting in Liverpool. Presented a poster about the COMPADRE and COMADRE matrix databases.
+ * October 2016 - Course: Integral Projection Models: Demography in a Continuous World (1 week), Barcelona. Run by Transmittingscience.org
+ * Summer 2016 - Working group: International Demographic Working Group (1 week), hosted at the University of Exeter.
+
+
+### Teaching
+ * Autumn 2017 - Teaching asssitant on Dr Dylan Child's second-year undergraduate statistics and R course.
+ * Spring 2017 - Breaking Boundaries facilitator: an interdisciplinary undergraduate module to teach them how to research an issue, form an argument and present it in a debate.
+
+
+### Internships
+ * Summer 2016, University of Exeter. Internship with Proffessor David Hodgson’s research group working on COMPADRE database and front-end web development (10 weeks). Data input, processing and error checking of matrix population models from scientific literature into COMPADRE database. Front-end development of a web application for the COMPADRE database using Python, Javascript and HTML.
+
+
+### Volunteering
+ * 2014 - Part-time lead volunteer at Falmouth Aquarium
+ * 2013 - Four month full-time lead volunteer bottlenose dolphin research assistant at Cardigan Bay Marine Wildlife Centre
+ * 2010-2013 - Practical conservation work party volunteer and Ecology Groups office-based volunteer with Wildlife Trust for Bedfordshire, Cambridgeshire and Northamptonshire
+
+
