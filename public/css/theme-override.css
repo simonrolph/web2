@@ -5,3 +5,30 @@ img {
   max-width:100%; 
   height: auto; 
 }
+
+h1, h3 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+p {
+    color:#717171;
+}
+
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+body{
+    
+    background-color: #f0f0f0;
+}
+
+.content-container{
+    background-color: white;
+}
+
+nav{
+    background-image: url(../img/background.png);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}

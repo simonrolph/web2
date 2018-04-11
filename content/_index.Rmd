@@ -5,14 +5,14 @@ title: Home
 
 
 
-<div class="row">
+<div class="row section">
   
 <div class="col-sm-9">
 # Hi, I'm Simon Rolph
 
-I'm a PhD student at the University of Sheffield. (That's the main thing going on in my life at the moment).
+I'm a PhD student at the University of Sheffield. 
 
-I love wildlife and outdoorness; getting on my bike or going for long walks in the Peak District. But I also like coding, and steam trains. I'm a huge fan of botanical gardens and I have a terrible habit of taking lots of pictures of plants and never getting around to identifying them.
+I love wildlife. I also like coding, and steam trains. I'm a huge fan of botanical gardens and I have a terrible habit of taking lots of pictures of plants and never getting around to identifying them.
 </div>
 
 <div class="col-sm-3"><div class="img-reponsive">![img](img/me.jpg)</div></div>
