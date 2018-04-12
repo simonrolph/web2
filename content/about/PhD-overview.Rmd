@@ -3,6 +3,28 @@ title: "PhD Overview"
 categories: ["About me"]
 ---
 
+### Part of a team.
 
+<div class="row">
+
+<div class="col-10 centred">
+
+I am part of Dr Dylan Child's lab group. We don't have a website yet because Dylan hasn't got around to finishing it. But, from his webpage on the University of Sheffield he says: "I am particularly keen to understand how demographic, environmental and ecological processes interact to influence these processes. I also develop theory and methods for modelling and analysis of structured populations". That's pretty cool.
+</div>
+<div class="col-2 centred">
+<div class="img-reponsive">![img](/img/childs.jpg)</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-2 centred">
+<div class="img-reponsive">![img](/img/SalgoTeamLogo.png)</div>
+</div>
+<div class="col-10 centred">
+
+I'm a member of Salgo Team, the research group of Dr Rob Salguero-Gómez. The group's ultimate goal is to develop an integrative academic research plan to use molecular, anatomic and physiological approaches to examine demographic aspects of an organism' life cycle through a combination angles including field and lab work, as well as ecological modeling and comparative biology.
+
+</div>
+</div>
 
 
