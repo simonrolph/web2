@@ -17,9 +17,9 @@
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/post/2015/07/23/hello-r-markdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
-Dangersummary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+Danger  summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
     </item>
     
     <item>
@@ -28,9 +28,9 @@ Dangersummary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/species/asplenium_trichomanes/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
-Dangersummary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+Danger  summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
     </item>
     
     <item>
@@ -39,7 +39,8 @@ Dangersummary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/phd-overview/</guid>
-      <description>Part of a team.I am part of Dr Dylan Child’s lab group. We don’t have a website yet because Dylan hasn’t got around to finishing it. But, from his webpage on the University of Sheffield he says: “I am particularly keen to understand how demographic, environmental and ecological processes interact to influence these processes. I also develop theory and methods for modelling and analysis of structured populations”. That’s pretty cool.</description>
+      <description>I’m based at the University of Sheffield and I’m funded by the Leverhulme Centre for Advanced Biological Modelling (CABM). CABM aims to harness cutting edge mathematical and computing skills to address major problems in biology. Additionally, I’m affiliated with the University of Oxford through my supervisor Rob Salguero-Gómez (so I get free access the the botanical gardens!).
+Supervisors  Part of a team. I am part of Dr Dylan Child’s lab group.</description>
     </item>
     
     <item>
@@ -48,8 +49,8 @@ Dangersummary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1s
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/cv/</guid>
-      <description>Education2016 - Present, University of Sheffield, PhD StudentPhD student at the University of Sheffield, Department of Animal and Plant science. Primary supervisor: Dr Dylan Childs, with supporting supervisors; Dr Rob Salguero-Gómez, Dr Jonathan Potts and Proffessor Rob Freckleton. President of the Animal and Plant Sciences Department PostGrad Soceity (June 2017-current)
-2013-2016, University of ExeterBSc (Hons) in Conservation Biology and Ecology at University of Exeter (Penryn Campus) 1st Class.</description>
+      <description>Education 2016 - Present, University of Sheffield, PhD Student PhD student at the University of Sheffield, Department of Animal and Plant science. Primary supervisor: Dr Dylan Childs, with supporting supervisors; Dr Rob Salguero-Gómez, Dr Jonathan Potts and Proffessor Rob Freckleton. President of the Animal and Plant Sciences Department PostGrad Soceity (June 2017-current)
+ 2013-2016, University of Exeter BSc (Hons) in Conservation Biology and Ecology at University of Exeter (Penryn Campus) 1st Class.</description>
     </item>
     
   </channel>

@@ -3,6 +3,12 @@ title: "PhD Overview"
 categories: ["About me"]
 ---
 
+I'm based at the University of Sheffield and I'm funded by the Leverhulme Centre for Advanced Biological Modelling (CABM). CABM aims to harness cutting edge mathematical and computing skills to address major problems in biology. Additionally, I'm affiliated with the University of Oxford through my supervisor Rob Salguero-Gómez (so I get free access the the botanical gardens!).
+
+### Supervisors
+
+
+
 ### Part of a team.
 
 <div class="row">

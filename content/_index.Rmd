@@ -3,10 +3,12 @@ title: Home
 
 ---
 
+</div>
+<div class="content-container2" style="min-height:400px;">
 
 <div class="row">
   
-<div class="col-sm-9 centred">
+<div class="col-sm-8 centred">
 # Hi, I'm Simon Rolph
 
 I'm a PhD student at the University of Sheffield. 
@@ -14,37 +16,54 @@ I'm a PhD student at the University of Sheffield.
 I love wildlife. I also like coding, and steam trains. I'm a huge fan of botanical gardens and I have a terrible habit of taking lots of pictures of plants and never getting around to identifying them.
 </div>
 
-<div class="col-sm-3 centred"><div class="img-reponsive shadowed">![img](img/me.jpg)</div></div>
+<div class="col-sm-4 centred"><div class="img-reponsive shadowed" style="transform: rotate(4deg);">![img](img/me.jpg)</div></div>
 
 </div>
 
+</div>
 
-
-
-### So, what do I study?
+<div class="content-container">
+<div class = "hcent">
+## So, what do I study?
+</div>
 
 <div class="row">
 <div class="col-sm-4">
 
-Some species grow fast, reproduce vast numbers of offspring, and die young. Others take a slower pace, reproduce more considerately, and live to a ripe old age.
+<div class="img-reponsive">![img](http://via.placeholder.com/400x200)</div>
 
+We observe an impressive diversity of life history strategies across the tree of life.
 
 </div>
+
+<div class="col-sm-4 ">
+
+<div class="img-reponsive">![img](http://via.placeholder.com/400x200)</div>
+
+Decades of population biology has resulted in data on the demography of hundreds of plants and animal species.
+</div>
+
 
 <div class="col-sm-4">
-We have data on the demography of hundreds of plants and animal species, these have been collated into the COMPADRE Plant Matrix Database and the COMADRE Plant Matrix Database.
 
-</div>
+<div class="img-reponsive">![img](http://via.placeholder.com/400x200)</div>
 
-
-<div class="col-sm-4">
-What can we use this data for?
+How can we use this demographic data, alongside a plethora of population modelling techniques, to ask fundamental questions about life history trade-offs?
 
 </div>
 </div>
 
+<div class="hcent">
+![img](img/TuosLogo.png){width=10%} ![img](img/Leverhulme.jpg){width=20%} ![img](img/ox-uni.png){width=20%}
 
-I'm based at the University of Sheffield and I'm funded by the Leverhulme Centre for Advanced Biological Modelling (CABM). CABM aims to harness cutting edge mathematical and computing skills to address major problems in biology. Additionally, I'm affiliated with the University of Oxford through my supervisor Rob Salguero-Gómez (so I get free access the the botanical gardens!).
+</div>
+
+<div class="hcent">
+<button type="button" class="btn btn-secondary">Read more about my research</button>
+</div>
+
+</div>
+
 
 
 
