@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-light">
       
       <div class="container">
+          
+          
       {{ $title := lower .Title }}
       {{ $section := lower .Section }}
     <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ lower .Site.Title}}</a>
@@ -23,6 +25,12 @@
           
           </div>
   </nav>
+<div class="top-image">
+    <div class="fade-layer">
+    </div>
+
+</div>
+
 <div class="container">
 <div class="content-container" id="mayberemove">
 

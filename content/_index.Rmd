@@ -22,7 +22,6 @@ I love wildlife. I also like coding, and steam trains. I'm a huge fan of botanic
 
 </div>
 
-
 <div class="content-container">
 <div class = "hcent">
 ## So, what do I study?
@@ -58,6 +57,7 @@ I love wildlife. I also like coding, and steam trains. I'm a huge fan of botanic
 </div>
 
 <div class="hcent">
+
 ![img](img/TuosLogo.png){width=10%} ![img](img/Leverhulme.jpg){width=20%} ![img](img/ox-uni.png){width=20%}
 
 </div>

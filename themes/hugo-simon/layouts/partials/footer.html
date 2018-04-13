@@ -16,6 +16,18 @@ You can find me on <a href="https://twitter.com/simon_rolph" target="_blank">Twi
         
         <script src="{{ "/js/jquery.min.js" | relURL }}"></script>
         <script src="{{ "/js/bootstrap.bundle.min.js" | relURL }}"></script>
+    <script>
+    $('a').each(function() {
+   var a = new RegExp('/' + window.location.host + '/');
+   if(!a.test(this.href)) {
+       $(this).click(function(event) {
+           event.preventDefault();
+           event.stopPropagation();
+           window.open(this.href, '_blank');
+       });
+   }
+});
+    </script>
         
     </footer>
 
