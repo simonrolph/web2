@@ -4,6 +4,8 @@ title: Home
 ---
 
 </div>
+<script> document.getElementById("mayberemove").outerHTML=''; </script
+
 <div class="content-container2" style="min-height:400px;">
 
 <div class="row">
@@ -20,7 +22,6 @@ I love wildlife. I also like coding, and steam trains. I'm a huge fan of botanic
 
 </div>
 
-</div>
 
 <div class="content-container">
 <div class = "hcent">
@@ -32,7 +33,8 @@ I love wildlife. I also like coding, and steam trains. I'm a huge fan of botanic
 
 <div class="img-reponsive">![img](http://via.placeholder.com/400x200)</div>
 
-We observe an impressive diversity of life history strategies across the tree of life.
+
+**Background**: we observe an impressive diversity of life history strategies across the tree of life.
 
 </div>
 
@@ -40,7 +42,8 @@ We observe an impressive diversity of life history strategies across the tree of
 
 <div class="img-reponsive">![img](http://via.placeholder.com/400x200)</div>
 
-Decades of population biology has resulted in data on the demography of hundreds of plants and animal species.
+
+**Opportunity**: decades of population biology has resulted in data on the demography of hundreds of plants and animal species.
 </div>
 
 
@@ -48,7 +51,8 @@ Decades of population biology has resulted in data on the demography of hundreds
 
 <div class="img-reponsive">![img](http://via.placeholder.com/400x200)</div>
 
-How can we use this demographic data, alongside a plethora of population modelling techniques, to ask fundamental questions about life history trade-offs?
+
+**My research**: how can we use this demographic data, alongside a plethora of population modelling techniques, to ask fundamental and applied questions about life history strategies?
 
 </div>
 </div>
@@ -59,35 +63,15 @@ How can we use this demographic data, alongside a plethora of population modelli
 </div>
 
 <div class="hcent">
-<button type="button" class="btn btn-secondary">Read more about my research</button>
+<a role="button" href="/about/PhD-overview" class="btn btn-secondary">Read more about my research</a>
 </div>
 
 </div>
+<br>
+
+<div class="content-container">
 
 
-
-
-### Communicating science!
-
-I have a irregularly updated youtube channel with such hits as "Life in a Jar" and "Cornish Wildflowers on Rosemullion Head". Pretty thrilling.
-
-### Codey bits
-
-
-
-
-### Field Notes
-
-
-
-
-
-### Allotment blog!
-
-
-
-
-### Miscilaneous bits and bobs
 
 
 

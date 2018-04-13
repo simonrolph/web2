@@ -6,11 +6,13 @@
 
 {{ .Content }}
 
+<h3>Code Notes</h3>
+<h3>Field Notes</h3>
+
 <ul>
   {{ range (where .Data.Pages "Section" "!=" "") }}
   <li>
       
-    <span class="date">{{ .Date.Format "2006/01/02" }}</span>
     <a href="{{ .URL }}">{{ .Title }}</a>
       
   </li>

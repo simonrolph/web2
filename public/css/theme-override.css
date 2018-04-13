@@ -8,15 +8,15 @@ img {
 
 h1, h2, h3 {
     font-family: 'Shadows Into Light', cursive;
+    color: #1c1c1c;
+    padding-top: 20px;
+    padding-bottom:10px;
 }
 
-p {
-    color:#717171;
-}
 
 body{
-    /* background-image: url(../img/background.png); */
     background-color: #f0f0f0;
+    color:#717171;
 }
 
 .hcent {
@@ -30,7 +30,7 @@ body{
 }
 
 .content-container2{
-    padding: 30px;
+    padding: 10px;
 }
 
 .shadowed {
