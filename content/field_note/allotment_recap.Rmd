@@ -11,7 +11,7 @@ I have an allotment! Here's a recap:
 <div class="col-sm-8">
 <div class="shadowed">
 ![](/img/allotment/recap/IMG_6394.JPG)
-</div>
+</div> 
 </div>
 <div class="col-sm-4 centred">
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare mi nisl, vel venenatis dui interdum in. Curabitur bibendum nisi eget leo molestie, a sollicitudin eros rutrum. Phasellus vel sollicitudin risus. Pellentesque eget nunc nisi. Donec efficitur molestie odio vel laoreet. *

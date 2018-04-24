@@ -4,17 +4,18 @@ title: Home
 ---
 
 <div class="row">
-<div class="col-sm-8 centred">
+<div class="col-sm-7 centred">
 # Hi, I'm Simon Rolph
 
 I'm a PhD student at the University of Sheffield.
 
 I'm a huge fan of botanical gardens and I have a terrible habit of taking lots of pictures of plants and never getting around to identifying them.
 </div>
+<div class="col-sm-1"></div>
 
 <div class="col-sm-4 centred"><div class="img-reponsive shadowed" style="transform: rotate(4deg);">![img](img/me.jpg)</div></div>
 
-</div>
+</div> 
 
 <div>
 ## What do I study?
@@ -23,7 +24,7 @@ I'm a huge fan of botanical gardens and I have a terrible habit of taking lots o
 <div class="row">
 <div class="col-sm-4">
 
-<div class="img-reponsive">![img](http://via.placeholder.com/400x200)</div>
+<div class="img-reponsive">![img](/img/life_hists.png)</div>
 
 
 **Background**: we observe an impressive diversity of life history strategies across the tree of life.
@@ -33,7 +34,7 @@ I'm a huge fan of botanical gardens and I have a terrible habit of taking lots o
 <div class="col-sm-4 ">
 
 
-<div class="img-reponsive">![img](http://via.placeholder.com/400x200)</div>
+<div class="img-reponsive">![img](/img/compadre-logo.png)</div>
 
 
 **Opportunity**: decades of population biology has resulted in data on the demography of hundreds of plants and animal species.
@@ -43,23 +44,25 @@ I'm a huge fan of botanical gardens and I have a terrible habit of taking lots o
 <div class="col-sm-4">
 
 
-<div class="img-reponsive">![img](http://via.placeholder.com/400x200)</div>
+<div class="img-reponsive">![img](/img/mpms.png)</div>
 
 
-**My research**: how can we use this demographic data, alongside a plethora of population modelling techniques, to ask fundamental and applied questions about life history strategies?
-
-</div>
-</div>
-
-<div>
-
-![img](img/TuosLogo.png){width=10%} ![img](img/Leverhulme.jpg){width=20%} ![img](img/ox-uni.png){width=20%}
+**Aims**: how can we use this demographic data, alongside a plethora of population modelling techniques, to ask fundamental and applied questions about life history strategies?
 
 </div>
-
-<div>
-<a role="button" href="/about/PhD-overview" class="btn btn-secondary">Read more about my research</a>
 </div>
+
+<div class="hcent">
+<a role="button" href="/about/PhD-overview" class="btn btn-primary">Read more about my research</a>
+</div>
+
+
+<div class="hcent">
+
+![img](/img/TuosLogo.png){width=22%}  ![img](/img/ox-uni.png){width=40%} ![img](/img/Leverhulme.png)
+
+</div>
+
 
 <br>
 

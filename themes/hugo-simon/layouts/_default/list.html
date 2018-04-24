@@ -10,10 +10,12 @@
 
 {{ .Content }}
 
-<h3>Content</h3>
+<div class="row">
+<div class="col-sm-4">
+<h3>Code Notes</h3>
 
 <ul>
-  {{ range (where .Data.Pages "Section" "!=" "") }}
+  {{ range (where .Data.Pages "Section" "=" "code_note") }}
   <li>
       
     <a href="{{ .URL }}">{{ .Title }}</a>
@@ -21,6 +23,44 @@
   </li>
   {{ end }}
 </ul>
+    
+    
+  </div>
+  <div class="col-sm-4">
+    <h3>Field Notes</h3>
+    
+    
+    <ul>
+  {{ range (where .Data.Pages "Section" "=" "field_note") }}
+  <li>
+    <a href="{{ .URL }}">{{ .Title }}</a>
+      
+  </li>
+  {{ end }}
+</ul>
+    
+    
+  </div>
+  <div class="col-sm-4">
+    <h3>Blog</h3>
+    
+    <ul>
+  {{ range (where .Data.Pages "Section" "=" "blog_post") }}
+  <li>
+      
+    <a href="{{ .URL }}">{{ .Title }}</a>
+      
+  </li>
+  {{ end }}
+</ul>
+    
+    
+  </div>
+  
+  
+</div>
+
+
 
 
 
