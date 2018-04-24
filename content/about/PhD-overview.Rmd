@@ -3,7 +3,7 @@ title: "PhD Overview"
 categories: ["About me"] 
 ---
 
-### An introduction to my research
+## An introduction to my research
 
 <div class="row">
 
@@ -60,7 +60,7 @@ Fusce maximus dignissim lacus id rutrum. Curabitur malesuada tempor aliquam. Aen
 
 I'm based at the University of Sheffield and funded by the Leverhulme Centre for Advanced Biological Modelling (CABM). CABM aims to harness cutting edge mathematical and computing skills to address major problems in biology. Additionally, I'm affiliated with the University of Oxford (so I get free access the the botanical gardens!) through one of my supervisors; Rob Salguero-Gómez.
 
-### Supervisors
+## Supervisors
 
 <div class="row hcent">
 
@@ -92,7 +92,7 @@ University of Sheffield - [Google Scholar](https://scholar.google.co.uk/citation
 
 
 
-### Lab groups
+## Lab groups
 
 <div class="row">
 
@@ -118,7 +118,7 @@ I'm a member of Salgo Team, the research group of Dr Rob Salguero-Gómez. The gr
 </div>
 </div>
 
-### Key literature
+## Key literature
 
 Salguero-Gómez, R., Jones, O. R., Jongejans, E., Blomberg, S. P., Hodgson, D. J., Mbeau-Ache, C., … Buckley, Y. M. (2016). Fast–slow continuum and reproductive strategies structure plant life-history variation worldwide. _Proceedings of the National Academy of Sciences_, 113(1), 230–235.
 
@@ -130,7 +130,7 @@ Crone, E. E., Menges, E. S., Ellis, M. M., Bell, T., Bierzychudek, P., Ehrlén, 
 
 Franklin, J., Serra-Diaz, J. M., Syphard, A. D., & Regan, H. M. (2017). Big data for forecasting the impacts of global change on plant communities. _Global Ecology and Biogeography_, 26(1), 6–17.
 
-### Contact
+## Contact
 
 Have any questions about my reseach or want to collaborate on something? Get in touch: [srolph1@sheffield.ac.uk](mailto:srolph1@sheffield.ac.uk)
 

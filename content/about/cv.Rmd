@@ -73,7 +73,7 @@ International **Demography Working Group** (1 week), hosted by Prof. Dave Hodgso
 </table>
 
 
-### Teaching
+## Teaching
 
 <table class="table">
 <tbody>
@@ -108,7 +108,7 @@ Breaking Boundaries facilitator: an interdisciplinary undergraduate module to te
 </table>
 
 
-### Internships
+## Internships
 
 <table class="table">
 <tbody>
@@ -128,7 +128,7 @@ Internship with Prof. David Hodgson’s research group working on **COMPADRE Pla
 
 
 
-### Volunteering
+## Volunteering
 
 <table class="table">
 <tbody>

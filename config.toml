@@ -12,34 +12,25 @@ footnotereturnlinkcontents = "↩"
     post = "/post/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
     name = "About My Research"
     url = "/about/PhD-overview"
     weight = 2
 [[menu.main]]
     name = "CV"
     url = "/about/cv"
-    weight = 2
+    weight = 7
 [[menu.main]]
     name = "Blog"
-    url = "/blog/"
-    weight = 2
+    url = "/blog_post"
+    weight = 6
 [[menu.main]]
     name = "Field Notes"
-    url = "/categories/field-notes"
-    weight = 2
+    url = "/field_note"
+    weight = 5
 [[menu.main]]
     name = "Code Notes"
-    url = "/categories/R/"
-    weight = 2
-[[menu.main]]
-    name = "Youtube"
-    url = "https://www.youtube.com/channel/UCMhL2zYYdpmicqLPByJpb9g"
-    weight = 2
-
+    url = "/code_note"
+    weight = 4
 
 [params]
     description = "Simon Rolph - Quantitative Ecologist, SciComm-er and Train Enthusiast"

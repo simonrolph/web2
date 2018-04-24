@@ -3,28 +3,21 @@ title: Home
 
 ---
 
-</div>
-<script> document.getElementById("mayberemove").outerHTML=''; </script
-
-<div class="content-container2" style="min-height:400px;">
-
 <div class="row">
-  
 <div class="col-sm-8 centred">
 # Hi, I'm Simon Rolph
 
-I'm a PhD student at the University of Sheffield. 
+I'm a PhD student at the University of Sheffield.
 
-I love wildlife. I also like coding, and steam trains. I'm a huge fan of botanical gardens and I have a terrible habit of taking lots of pictures of plants and never getting around to identifying them.
+I'm a huge fan of botanical gardens and I have a terrible habit of taking lots of pictures of plants and never getting around to identifying them.
 </div>
 
 <div class="col-sm-4 centred"><div class="img-reponsive shadowed" style="transform: rotate(4deg);">![img](img/me.jpg)</div></div>
 
 </div>
 
-<div class="content-container">
-<div class = "hcent">
-## So, what do I study?
+<div>
+## What do I study?
 </div>
 
 <div class="row">
@@ -39,6 +32,7 @@ I love wildlife. I also like coding, and steam trains. I'm a huge fan of botanic
 
 <div class="col-sm-4 ">
 
+
 <div class="img-reponsive">![img](http://via.placeholder.com/400x200)</div>
 
 
@@ -48,6 +42,7 @@ I love wildlife. I also like coding, and steam trains. I'm a huge fan of botanic
 
 <div class="col-sm-4">
 
+
 <div class="img-reponsive">![img](http://via.placeholder.com/400x200)</div>
 
 
@@ -56,20 +51,17 @@ I love wildlife. I also like coding, and steam trains. I'm a huge fan of botanic
 </div>
 </div>
 
-<div class="hcent">
+<div>
 
 ![img](img/TuosLogo.png){width=10%} ![img](img/Leverhulme.jpg){width=20%} ![img](img/ox-uni.png){width=20%}
 
 </div>
 
-<div class="hcent">
+<div>
 <a role="button" href="/about/PhD-overview" class="btn btn-secondary">Read more about my research</a>
 </div>
 
-</div>
 <br>
-
-<div class="content-container">
 
 
 

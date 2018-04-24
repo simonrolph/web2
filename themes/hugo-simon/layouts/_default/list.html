@@ -1,13 +1,16 @@
 {{ partial "header.html" . }}
 
+<div class="container">
+
 {{if not .IsHome }}
 <h1>{{ .Title }}</h1>
 {{ end }}
 
+
+
 {{ .Content }}
 
-<h3>Code Notes</h3>
-<h3>Field Notes</h3>
+<h3>Content</h3>
 
 <ul>
   {{ range (where .Data.Pages "Section" "!=" "") }}

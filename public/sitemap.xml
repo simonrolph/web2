@@ -3,18 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/another-blog/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/blog_post/another-blog/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/copyof2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/code/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/code_note/2015-07-23-r-rmarkdown/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,12 +23,19 @@
   </url>
   
   <url>
-    <loc>/field/asplenium_trichomanes/</loc>
+    <loc>/tags/academia/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/categories/allotment/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog_post/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -43,19 +45,31 @@
   </url>
   
   <url>
-    <loc>/code/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/code_note/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/field/</loc>
+    <loc>/field_note/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/masters/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/phd/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -64,25 +78,19 @@
   
   <url>
     <loc>/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -91,13 +99,18 @@
   </url>
   
   <url>
-    <loc>/categories/species/</loc>
+    <loc>/tags/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>/field_note/allotment_recap/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/undergraduate/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

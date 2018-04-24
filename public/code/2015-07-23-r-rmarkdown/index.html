@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/fonts.css" />
     <link href="https://fonts.googleapis.com/css?family=Pontano+Sans|Shadows+Into+Light" rel="stylesheet">
     <link rel="stylesheet" href="/css/theme-override.css">
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
       
       <div class="container">
           
@@ -36,22 +36,22 @@
       
        
     <li class="nav-item">
-        <a class="nav-link" href="/blog/">Blog</a>
-      </li>
-      
-       
-    <li class="nav-item">
         <a class="nav-link" href="/about/cv">CV</a>
       </li>
       
        
     <li class="nav-item">
-        <a class="nav-link" href="/categories/r/">Code Notes</a>
+        <a class="nav-link" href="/blog">Blog</a>
       </li>
       
        
     <li class="nav-item">
-        <a class="nav-link" href="/categories/field-notes">Field Notes</a>
+        <a class="nav-link" href="/code_note">Code Notes</a>
+      </li>
+      
+       
+    <li class="nav-item">
+        <a class="nav-link" href="/field_note">Field Note</a>
       </li>
       
        
@@ -66,26 +66,32 @@
           
           </div>
   </nav>
-<div class="top-image">
-    <div class="fade-layer">
-    </div>
 
-</div>
 
-<div class="container">
-<div class="content-container" id="mayberemove">
 
 
   </head>
 
   <body>
-      
-    <br/>
 
-<p class="float-right terms">
+
+
+<header>
+</header>
+
+
+
+<div class="container">
+
+
+
+<main>
+<h1><span class="title">Hello R Markdown</span></h1>
+<h2 class="date">2015/07/23</h2>
+<p class="terms">
   
   
-  Categories: <a href="/categories/r">R</a> 
+  Tools: <a href="/tools/r">R</a> 
   
   
   
@@ -93,17 +99,6 @@
   
   
 </p>
-<div class="article-meta">
-    
-<h1><span class="title">Hello R Markdown</span></h1>
-<h2 class="author">Frida Gomam</h2>
-<h2 class="date">2015/07/23</h2>
-
-</div>
-
-
-
-<main>
 <div id="r-markdown" class="section level1">
 <h1>R Markdown</h1>
 <p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
@@ -111,7 +106,7 @@
 <button type="button" class="btn btn-danger">
 Danger
 </button>
-<pre class="r"><code>summary(cars)
+<pre class="r"><code>summary(cars) 
 ##      speed           dist       
 ##  Min.   : 4.0   Min.   :  2.00  
 ##  1st Qu.:12.0   1st Qu.: 26.00  
@@ -135,7 +130,7 @@ fit
 <p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
 <pre class="r"><code>plot(c(2,2),c(1,2))</code></pre>
 <div class="figure"><span id="fig:pie"></span>
-<img src="/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<img src="/code/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
 <p class="caption">
 Figure 1: A fancy pie chart.
 </p>

@@ -1,0 +1,7 @@
+---
+title: "Another year, another blog..."
+date: 2015-07-23
+tags: ["Academia", "PhD", "Undergraduate","Masters"]
+---
+
+This is a wordy blog

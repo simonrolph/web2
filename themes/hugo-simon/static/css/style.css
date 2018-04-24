@@ -12,3 +12,9 @@ body {
 .navbar {
     background-color: #70bbf0;
 }
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
