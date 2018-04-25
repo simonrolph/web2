@@ -94,3 +94,9 @@ nav{
 
 .btn-primary{
 }
+
+.register a,
+.register a:hover,
+.register a:focus {
+    color:#4e4e4e;
+}

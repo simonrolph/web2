@@ -1,5 +1,5 @@
 ---
-title: "Another year, another blog..."
+title: "Another Year, Another Blog..."
 date: 2015-07-23
 tags: ["Academia", "PhD", "Undergraduate","Masters"]
 ---

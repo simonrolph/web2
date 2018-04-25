@@ -10,58 +10,45 @@
 
 {{ .Content }}
 
-<div class="row">
-<div class="col-md">
-<h3>Code Notes</h3>
+{{ range (where .Data.Pages "Section" "!=" "about") }}
 
-<ul>
-  {{ range (where .Data.Pages "Section" "=" "code_note") }}
-  <li>
-      
-    <a href="{{ .URL }}">{{ .Title }}</a>
-      
-  </li>
-  {{ end }}
-</ul>
     
+<div class="row register" >
+<div class="col-md-4">
     
-  </div>
-  <div class="col-md">
-    <h3>Field Notes</h3>
-    
-    
-    <ul>
-  {{ range (where .Data.Pages "Section" "=" "field_note") }}
-  <li>
-    <a href="{{ .URL }}">{{ .Title }}</a>
-      {{ .Params.image }}
-      {{ .Params.Subtitle }}
-      
-  </li>
-  {{ end }}
-</ul>
-    
-    
-  </div>
-  <div class="col-md">
-    <h3>Blog</h3>
-    
-    <ul>
-  {{ range (where .Data.Pages "Section" "=" "blog_post") }}
-  <li>
-      
-    <a href="{{ .URL }}">{{ .Date.Format "2006/01/02" }} - {{ .Title }}</a>
-      
-      
-  </li>
-  {{ end }}
-</ul>
-    
-    
-  </div>
-  
-  
+    {{ .Params.image }}
 </div>
+    
+    
+ 
+    <div class="col-md-8 register">
+    
+    <a href="{{ .URL }}">
+        {{ .Date.Format "2006/01/02" }} <span class="badge badge-secondary">{{ if eq .Section "blog_post" }}<i class="fas fa-comment-alt"></i> Blog Post{{ end }}{{ if eq .Section "field_note" }}<i class="fas fa-leaf"></i> Field Note{{ end }}{{ if eq .Section "code_note" }}<i class="fas fa-code"></i> Code Note
+        {{ end }} </span>
+        
+
+    <h4> {{ .Title }} </h4>
+        </a>
+        
+        <p>Tagged:
+        {{ range $i := .Params.tags }}
+        <a href="{{ relURL (print "/tags/" $i | urlize) }}">{{$i}}</a>
+            
+        
+        {{end}}
+            </p>
+
+        
+        
+        <p>{{ .Params.subtitle }}</p>
+        
+        
+    
+    </div>
+</div>
+     
+    {{ end }}
 
 
 

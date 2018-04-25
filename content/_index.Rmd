@@ -1,13 +1,16 @@
 ---
 title: Home
-
+author: ''
+date: '2018-04-25'
 ---
 
 <div class="row">
 <div class="col-sm-7 centred">
 # Hi, I'm Simon Rolph
 
-I'm a PhD student at the University of Sheffield.
+
+
+<i class="fas fa-user"></i> I'm a PhD student at the University of Sheffield.
 
 I'm a huge fan of botanical gardens and I have a terrible habit of taking lots of pictures of plants and never getting around to identifying them.
 </div>
@@ -43,28 +46,26 @@ I'm a huge fan of botanical gardens and I have a terrible habit of taking lots o
 
 <div class="col-md-4">
 
-
+ 
 <div class="img-reponsive hcent">![img](/img/mpms.png)</div>
 
 
 **Aims**: how can we use this demographic data, alongside a plethora of population modelling techniques, to ask fundamental and applied questions about life history strategies?
-
+  
 </div>
-</div>
-
+</div> 
+ 
 <div class="hcent">
 <a role="button" href="/about/PhD-overview" class="btn btn-primary">Read more about my research</a>
 </div>
-
-
+ 
 <div class="hcent">
 
 ![img](/img/TuosLogo.png){width=22%}  ![img](/img/ox-uni.png){width=40%} ![img](/img/Leverhulme.png)
 
 </div>
 
-
-## What else is on my website?
+## Resources, notes, ramblings...
 
 Code notes are bits of code, field notes are things about wildlife and blog is a blog.
 

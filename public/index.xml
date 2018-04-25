@@ -6,13 +6,22 @@
     <description>Recent content in Home on Simon Rolph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>How not to start your PhD</title>
+      <title>test</title>
+      <link>/post/2018/04/25/test/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/04/25/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How Not To Start Your PhD</title>
       <link>/blog_post/starting_a_phd/</link>
       <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
       
@@ -21,7 +30,7 @@
     </item>
     
     <item>
-      <title>Is going from undergraduate to PhD a good idea?</title>
+      <title>Is Fast-tracking From Undergraduate to PhD Student a Good Idea?</title>
       <link>/blog_post/undergrad_to_phd/</link>
       <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
       
@@ -30,7 +39,7 @@
     </item>
     
     <item>
-      <title>Another year, another blog...</title>
+      <title>Another Year, Another Blog...</title>
       <link>/blog_post/another-blog/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
@@ -69,7 +78,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     </item>
     
     <item>
-      <title>The allotment recap</title>
+      <title>The Allotment Recap (October 2017 to March 2018)</title>
       <link>/field_note/allotment_recap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
