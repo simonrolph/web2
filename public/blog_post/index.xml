@@ -6,10 +6,28 @@
     <description>Recent content in Blog_posts on Simon Rolph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Jul 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog_post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How not to start your PhD</title>
+      <link>/blog_post/starting_a_phd/</link>
+      <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_post/starting_a_phd/</guid>
+      <description>1 2 3 4 5</description>
+    </item>
+    
+    <item>
+      <title>Is going from undergraduate to PhD a good idea?</title>
+      <link>/blog_post/undergrad_to_phd/</link>
+      <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_post/undergrad_to_phd/</guid>
+      <description>https://www.elsevier.com/connect/9-things-you-should-consider-before-embarking-on-a-phd</description>
+    </item>
     
     <item>
       <title>Another year, another blog...</title>

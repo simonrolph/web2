@@ -1,4 +1,6 @@
 ---
 title: ''
 date: ''
+image: ''
+subtitle: ''
 ---

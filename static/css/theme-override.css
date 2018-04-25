@@ -92,9 +92,5 @@ nav{
     
 }
 
-
-img + em { 
-    text-align: center;
-    padding-left: 400px;
-
+.btn-primary{
 }

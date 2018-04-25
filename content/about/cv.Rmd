@@ -5,11 +5,13 @@ categories: ["About me"]
 
 ## Education
 
-#### 2016 - Present, University of Sheffield, PhD Student
-PhD student at the University of Sheffield, Department of Animal and Plant science. Primary supervisor: Dr Dylan Childs, with supporting supervisors; Dr Rob Salguero-Gómez, Dr Jonathan Potts and Proffessor Rob Freckleton. President of the Animal and Plant Sciences Department PostGrad Soceity (June 2017-current)
+#### 2016 - Present, University of Sheffield
+**PhD student at the University of Sheffield, Department of Animal and Plant science.** 
+Primary supervisor: Dr Dylan Childs, with supporting supervisors; Dr Rob Salguero-Gómez, Dr Jonathan Potts and Proffessor Rob Freckleton. President of the Animal and Plant Sciences Department PostGrad Soceity (June 2017-current)
 
 #### 2013-2016, University of Exeter
-BSc (Hons) in Conservation Biology and Ecology at University of Exeter (Penryn Campus) 1st Class. Third year modules: Tenerife Field Course, Mathematical Biology and Ecology, Ecology and Evolution of Disease, Marine Spatial Ecology. Second year modules: Iceland Field Course, Mathematics of the Environment, Analysis of Biological Data, Biodiversity and Conservation, Biology of Aquatic Vertebrates, Ecological Consultancy.
+**BSc (Hons) in Conservation Biology and Ecology at University of Exeter (Penryn Campus) - 1st Class.**
+Third year modules: Tenerife Field Course, Mathematical Biology and Ecology, Ecology and Evolution of Disease, Marine Spatial Ecology. Second year modules: Iceland Field Course, Mathematics of the Environment, Analysis of Biological Data, Biodiversity and Conservation, Biology of Aquatic Vertebrates, Ecological Consultancy.
 
 ## Conferences, Courses and Working Groups
 
@@ -20,7 +22,7 @@ BSc (Hons) in Conservation Biology and Ecology at University of Exeter (Penryn C
 December 2017
 </td>
 <td>
-**Ecology Across Borders** (British Ecological Soceity Annual Meeting) in Ghent. Presenting a poster on my work on simulating plant life histroy strategies to guide comparative research of matrix population models
+**Ecology Across Borders** (British Ecological Soceity Annual Meeting) in Ghent. Presenting a poster on my work on simulating plant life history strategies to guide comparative research of matrix population models
 </td>
 </tr>
 

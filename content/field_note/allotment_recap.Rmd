@@ -1,6 +1,8 @@
 ---
-title: "The Allotment Recap"
+title: "The allotment recap"
 categories: ["Allotment"]
+image: "test"
+subtitle: "sgfasgdkjasgkl"
 ---
 
 I have an allotment! Here's a recap:
@@ -17,7 +19,7 @@ I have an allotment! Here's a recap:
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare mi nisl, vel venenatis dui interdum in. Curabitur bibendum nisi eget leo molestie, a sollicitudin eros rutrum. Phasellus vel sollicitudin risus. Pellentesque eget nunc nisi. Donec efficitur molestie odio vel laoreet. *
 </div>
 </div>
-
+ 
 
 ## September 2017
 

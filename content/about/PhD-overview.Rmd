@@ -54,7 +54,7 @@ Fusce maximus dignissim lacus id rutrum. Curabitur malesuada tempor aliquam. Aen
 
 <div class="hcent">
 
-![img](/img/TuosLogo.png){width=10%} ![img](/img/Leverhulme.jpg){width=20%} ![img](/img/ox-uni.png){width=20%}
+![img](/img/TuosLogo.png){width=22%}  ![img](/img/ox-uni.png){width=40%} ![img](/img/Leverhulme.png)
 
 </div>
 

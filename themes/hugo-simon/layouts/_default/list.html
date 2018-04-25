@@ -11,7 +11,7 @@
 {{ .Content }}
 
 <div class="row">
-<div class="col-sm-4">
+<div class="col-md">
 <h3>Code Notes</h3>
 
 <ul>
@@ -26,7 +26,7 @@
     
     
   </div>
-  <div class="col-sm-4">
+  <div class="col-md">
     <h3>Field Notes</h3>
     
     
@@ -34,6 +34,8 @@
   {{ range (where .Data.Pages "Section" "=" "field_note") }}
   <li>
     <a href="{{ .URL }}">{{ .Title }}</a>
+      {{ .Params.image }}
+      {{ .Params.Subtitle }}
       
   </li>
   {{ end }}
@@ -41,14 +43,15 @@
     
     
   </div>
-  <div class="col-sm-4">
+  <div class="col-md">
     <h3>Blog</h3>
     
     <ul>
   {{ range (where .Data.Pages "Section" "=" "blog_post") }}
   <li>
       
-    <a href="{{ .URL }}">{{ .Title }}</a>
+    <a href="{{ .URL }}">{{ .Date.Format "2006/01/02" }} - {{ .Title }}</a>
+      
       
   </li>
   {{ end }}

@@ -6,10 +6,28 @@
     <description>Recent content in Home on Simon Rolph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Jul 2016 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How not to start your PhD</title>
+      <link>/blog_post/starting_a_phd/</link>
+      <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_post/starting_a_phd/</guid>
+      <description>1 2 3 4 5</description>
+    </item>
+    
+    <item>
+      <title>Is going from undergraduate to PhD a good idea?</title>
+      <link>/blog_post/undergrad_to_phd/</link>
+      <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/blog_post/undergrad_to_phd/</guid>
+      <description>https://www.elsevier.com/connect/9-things-you-should-consider-before-embarking-on-a-phd</description>
+    </item>
     
     <item>
       <title>Another year, another blog...</title>
@@ -26,7 +44,7 @@
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
       <guid>/code_note/2015-07-23-r-rmarkdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
     </item>
@@ -37,7 +55,7 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/phd-overview/</guid>
-      <description>An introduction to my research   Live fast, die young? Fusce maximus dignissim lacus id rutrum. Curabitur malesuada tempor aliquam. Aenean a cursus dui. Praesent condimentum urna dolor. Pellentesque ac augue eu quam semper iaculis et eu dui. Vestibulum non finibus lorem, quis interdum neque. Sed rhoncus risus augue, eu pulvinar erat tincidunt ut. Suspendisse potenti. Cras sed nisl aliquet, maximus dolor ac, lacinia diam. Curabitur sed diam urna. Integer eleifend risus non hendrerit iaculis.</description>
+      <description>An introduction to my researchLive fast, die young?Fusce maximus dignissim lacus id rutrum. Curabitur malesuada tempor aliquam. Aenean a cursus dui. Praesent condimentum urna dolor. Pellentesque ac augue eu quam semper iaculis et eu dui. Vestibulum non finibus lorem, quis interdum neque. Sed rhoncus risus augue, eu pulvinar erat tincidunt ut. Suspendisse potenti. Cras sed nisl aliquet, maximus dolor ac, lacinia diam. Curabitur sed diam urna. Integer eleifend risus non hendrerit iaculis.</description>
     </item>
     
     <item>
@@ -46,20 +64,20 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/about/cv/</guid>
-      <description>Education 2016 - Present, University of Sheffield, PhD Student PhD student at the University of Sheffield, Department of Animal and Plant science. Primary supervisor: Dr Dylan Childs, with supporting supervisors; Dr Rob Salguero-Gómez, Dr Jonathan Potts and Proffessor Rob Freckleton. President of the Animal and Plant Sciences Department PostGrad Soceity (June 2017-current)
- 2013-2016, University of Exeter BSc (Hons) in Conservation Biology and Ecology at University of Exeter (Penryn Campus) 1st Class.</description>
+      <description>Education2016 - Present, University of SheffieldPhD student at the University of Sheffield, Department of Animal and Plant science. Primary supervisor: Dr Dylan Childs, with supporting supervisors; Dr Rob Salguero-Gómez, Dr Jonathan Potts and Proffessor Rob Freckleton. President of the Animal and Plant Sciences Department PostGrad Soceity (June 2017-current)
+2013-2016, University of ExeterBSc (Hons) in Conservation Biology and Ecology at University of Exeter (Penryn Campus) - 1st Class.</description>
     </item>
     
     <item>
-      <title>The Allotment Recap</title>
+      <title>The allotment recap</title>
       <link>/field_note/allotment_recap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/field_note/allotment_recap/</guid>
       <description>I have an allotment! Here’s a recap:
-August 2017    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare mi nisl, vel venenatis dui interdum in. Curabitur bibendum nisi eget leo molestie, a sollicitudin eros rutrum. Phasellus vel sollicitudin risus. Pellentesque eget nunc nisi. Donec efficitur molestie odio vel laoreet. 
-   September 2017    Subtitle about image
-     Subtitle about image</description>
+August 2017Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare mi nisl, vel venenatis dui interdum in. Curabitur bibendum nisi eget leo molestie, a sollicitudin eros rutrum. Phasellus vel sollicitudin risus. Pellentesque eget nunc nisi. Donec efficitur molestie odio vel laoreet. 
+September 2017Subtitle about image
+Subtitle about image</description>
     </item>
     
   </channel>
