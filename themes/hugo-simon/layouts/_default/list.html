@@ -15,38 +15,38 @@
     
 <div class="row register" >
 <div class="col-md-4">
-    
-    {{ .Params.image }}
+    <img class="shadowed" src="{{ relURL (print "/img/" .Params.image ) }}">
 </div>
     
     
  
     <div class="col-md-8 register">
     
-    <a href="{{ .URL }}">
+    
         {{ .Date.Format "2006/01/02" }} <span class="badge badge-secondary">{{ if eq .Section "blog_post" }}<i class="fas fa-comment-alt"></i> Blog Post{{ end }}{{ if eq .Section "field_note" }}<i class="fas fa-leaf"></i> Field Note{{ end }}{{ if eq .Section "code_note" }}<i class="fas fa-code"></i> Code Note
         {{ end }} </span>
         
-
+<a href="{{ .URL }}">
     <h4> {{ .Title }} </h4>
         </a>
-        
-        <p>Tagged:
+        <p>{{ .Params.subtitle }}</p>
+        <p><small>Tagged:
         {{ range $i := .Params.tags }}
         <a href="{{ relURL (print "/tags/" $i | urlize) }}">{{$i}}</a>
             
         
         {{end}}
-            </p>
+            </small></p>
 
         
         
-        <p>{{ .Params.subtitle }}</p>
+        
         
         
     
     </div>
 </div>
+<br>
      
     {{ end }}
 
