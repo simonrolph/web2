@@ -8,13 +8,14 @@ categories: ["About me"]
 <div class="row">
 
 <div class="col-sm-4">
-<div class="img-reponsive">![img](http://via.placeholder.com/400x400)</div>
+<div class="img-reponsive">![img](/img/life_hists.png)</div>
 </div>
 
 <div class="col-sm-8 centred">
-#### Live fast, die young?
+#### Background
 
-Fusce maximus dignissim lacus id rutrum. Curabitur malesuada tempor aliquam. Aenean a cursus dui. Praesent condimentum urna dolor. Pellentesque ac augue eu quam semper iaculis et eu dui. Vestibulum non finibus lorem, quis interdum neque. Sed rhoncus risus augue, eu pulvinar erat tincidunt ut. Suspendisse potenti. Cras sed nisl aliquet, maximus dolor ac, lacinia diam. Curabitur sed diam urna. Integer eleifend risus non hendrerit iaculis. Curabitur eget accumsan nulla. Mauris mattis sed enim sed placerat. Donec condimentum, ipsum quis aliquam luctus, ex velit dignissim lectus, sit amet hendrerit nulla justo at metus. Sed et ante purus.
+We observe an impressive diversity of life history strategies across the tree of life.
+
 </div>
 </div>
 <br>
@@ -23,13 +24,14 @@ Fusce maximus dignissim lacus id rutrum. Curabitur malesuada tempor aliquam. Aen
 
 
 <div class="col-sm-4">
-<div class="img-reponsive">![img](http://via.placeholder.com/400x400)</div>
+<div class="img-reponsive">![img](/img/compadre-logo.png)</div>
 </div>
 
 <div class="col-sm-8 centred">
-#### Introducing COMPADRE and COMADRE
+#### Opportunity
 
-Fusce maximus dignissim lacus id rutrum. Curabitur malesuada tempor aliquam. Aenean a cursus dui. Praesent condimentum urna dolor. Pellentesque ac augue eu quam semper iaculis et eu dui. Vestibulum non finibus lorem, quis interdum neque. Sed rhoncus risus augue, eu pulvinar erat tincidunt ut. Suspendisse potenti. Cras sed nisl aliquet, maximus dolor ac, lacinia diam. Curabitur sed diam urna. Integer eleifend risus non hendrerit iaculis. Curabitur eget accumsan nulla. Mauris mattis sed enim sed placerat. Donec condimentum, ipsum quis aliquam luctus, ex velit dignissim lectus, sit amet hendrerit nulla justo at metus. Sed et ante purus.
+Decades of population biology has resulted in data on the demography of hundreds of plants and animal species.
+
 </div>
 
 </div>
@@ -39,13 +41,14 @@ Fusce maximus dignissim lacus id rutrum. Curabitur malesuada tempor aliquam. Aen
 
 
 <div class="col-sm-4">
-<div class="img-reponsive">![img](http://via.placeholder.com/400x400)</div>
+<div class="img-reponsive">![img](/img/mpms.png)</div>
 </div>
 
 <div class="col-sm-8 centred">
-#### How can we use compadre and comadre?
+#### Aims
 
-Fusce maximus dignissim lacus id rutrum. Curabitur malesuada tempor aliquam. Aenean a cursus dui. Praesent condimentum urna dolor. Pellentesque ac augue eu quam semper iaculis et eu dui. Vestibulum non finibus lorem, quis interdum neque. Sed rhoncus risus augue, eu pulvinar erat tincidunt ut. Suspendisse potenti. Cras sed nisl aliquet, maximus dolor ac, lacinia diam. Curabitur sed diam urna. Integer eleifend risus non hendrerit iaculis. Curabitur eget accumsan nulla. Mauris mattis sed enim sed placerat. Donec condimentum, ipsum quis aliquam luctus, ex velit dignissim lectus, sit amet hendrerit nulla justo at metus. Sed et ante purus.
+How can we use this demographic data, alongside a plethora of population modelling techniques, to ask fundamental and applied questions about life history strategies?
+
 </div>
 
 
@@ -65,27 +68,25 @@ I'm based at the University of Sheffield and funded by the Leverhulme Centre for
 <div class="row hcent">
 
 <div class="col-sm-6">
-<div>![img](http://via.placeholder.com/200x200)</div>
+<!--<div>![img](http://via.placeholder.com/200x200)</div>-->
 #### Dr Dylan Childs
 University of Sheffield
 </div>
 
 <div class="col-sm-6">
-<div>![img](http://via.placeholder.com/200x200)</div>
+<!--<div>![img](http://via.placeholder.com/200x200)</div>-->
 #### Dr Rob Salguero-Gómez
 University of Oxford - [Google Scholar](https://scholar.google.co.uk/citations?user=bgMIMNIAAAAJ) - [Website](https://sites.google.com/site/robresearchsite/)
 </div>
 
 <div class="col-sm-6">
-<div>![img](http://via.placeholder.com/200x200)</div>
+<!--<div>![img](http://via.placeholder.com/200x200)</div>-->
 #### Prof. Rob Freckleton
 University of Sheffield - [Google Scholar](https://scholar.google.co.uk/citations?user=fRPnRNsAAAAJ)
 </div>
 
-
-
 <div class="col-sm-6">
-<div>![img](http://via.placeholder.com/200x200)</div>
+<!--<div>![img](http://via.placeholder.com/200x200)</div>-->
 #### Dr Jonathan Potts
 University of Sheffield - [Google Scholar](https://scholar.google.co.uk/citations?user=srLN0tcAAAAJ) - [Website](http://jonathan-potts.staff.shef.ac.uk/)
 </div>

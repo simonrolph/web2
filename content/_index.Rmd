@@ -10,7 +10,7 @@ date: '2018-04-25'
 
 
 
-<i class="fas fa-user"></i> I'm a PhD student at the University of Sheffield.
+I'm a PhD student at the University of Sheffield.
 
 I'm a huge fan of botanical gardens and I have a terrible habit of taking lots of pictures of plants and never getting around to identifying them.
 </div>
@@ -65,9 +65,10 @@ I'm a huge fan of botanical gardens and I have a terrible habit of taking lots o
 
 </div>
 
-## Resources, notes, ramblings...
+<!--## Resources, notes, ramblings...
 
 Code notes are bits of code, field notes are things about wildlife and blog is a blog.
+-->
 
 
 

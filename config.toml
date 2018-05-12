@@ -19,18 +19,18 @@ footnotereturnlinkcontents = "↩"
     name = "CV"
     url = "/about/cv"
     weight = 7
-[[menu.main]]
-    name = "Blog"
-    url = "/blog_post"
-    weight = 6
-[[menu.main]]
-    name = "Field Notes"
-    url = "/field_note"
-    weight = 5
-[[menu.main]]
-    name = "Code Notes"
-    url = "/code_note"
-    weight = 4
+#[[menu.main]]
+#    name = "Blog"
+#    url = "/blog_post"
+#    weight = 6
+#[[menu.main]]
+#    name = "Field Notes"
+#    url = "/field_note"
+#    weight = 5
+#[[menu.main]]
+#    name = "Code Notes"
+#    url = "/code_note"
+#    weight = 4
 
 [params]
     description = "Simon Rolph - Quantitative Ecologist, SciComm-er and Train Enthusiast"
