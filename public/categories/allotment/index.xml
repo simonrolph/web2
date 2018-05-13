@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Allotment on Simon Rolph</title>
-    <link>/categories/allotment/</link>
+    <link>/simonrolph/categories/allotment/</link>
     <description>Recent content in Allotment on Simon Rolph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/categories/allotment/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/simonrolph/categories/allotment/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Allotment Recap (October 2017 to March 2018)</title>
-      <link>/field_note/allotment_recap/</link>
+      <link>/simonrolph/field_note/allotment_recap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/field_note/allotment_recap/</guid>
+      <guid>/simonrolph/field_note/allotment_recap/</guid>
       <description>I have an allotment! Here’s a recap:
 August 2017Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare mi nisl, vel venenatis dui interdum in. Curabitur bibendum nisi eget leo molestie, a sollicitudin eros rutrum. Phasellus vel sollicitudin risus. Pellentesque eget nunc nisi. Donec efficitur molestie odio vel laoreet. 
 September 2017Subtitle about image

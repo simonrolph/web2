@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Simon Rolph</title>
-    <link>/tags/</link>
+    <link>/simonrolph/tags/</link>
     <description>Recent content in Tags on Simon Rolph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Jul 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/simonrolph/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Academia</title>
-      <link>/tags/academia/</link>
+      <link>/simonrolph/tags/academia/</link>
       <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/academia/</guid>
+      <guid>/simonrolph/tags/academia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Masters</title>
-      <link>/tags/masters/</link>
+      <link>/simonrolph/tags/masters/</link>
       <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/masters/</guid>
+      <guid>/simonrolph/tags/masters/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PhD</title>
-      <link>/tags/phd/</link>
+      <link>/simonrolph/tags/phd/</link>
       <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/phd/</guid>
+      <guid>/simonrolph/tags/phd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plot</title>
-      <link>/tags/plot/</link>
+      <link>/simonrolph/tags/plot/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/tags/plot/</guid>
+      <guid>/simonrolph/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
+      <link>/simonrolph/tags/r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>/simonrolph/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Regression</title>
-      <link>/tags/regression/</link>
+      <link>/simonrolph/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/tags/regression/</guid>
+      <guid>/simonrolph/tags/regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Undergraduate</title>
-      <link>/tags/undergraduate/</link>
+      <link>/simonrolph/tags/undergraduate/</link>
       <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/undergraduate/</guid>
+      <guid>/simonrolph/tags/undergraduate/</guid>
       <description></description>
     </item>
     

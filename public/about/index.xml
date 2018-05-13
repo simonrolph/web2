@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Simon Rolph</title>
-    <link>/about/</link>
+    <link>/simonrolph/about/</link>
     <description>Recent content in Abouts on Simon Rolph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/simonrolph/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PhD Overview</title>
-      <link>/about/phd-overview/</link>
+      <link>/simonrolph/about/phd-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/phd-overview/</guid>
+      <guid>/simonrolph/about/phd-overview/</guid>
       <description>An introduction to my researchBackgroundWe observe an impressive diversity of life history strategies across the tree of life.
 OpportunityDecades of population biology has resulted in data on the demography of hundreds of plants and animal species.
 AimsHow can we use this demographic data, alongside a plethora of population modelling techniques, to ask fundamental and applied questions about life history strategies?</description>
@@ -23,10 +23,10 @@
     
     <item>
       <title>Simon Rolph - CV</title>
-      <link>/about/cv/</link>
+      <link>/simonrolph/about/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/cv/</guid>
+      <guid>/simonrolph/about/cv/</guid>
       <description>Department of Animal and Plant Sciences, University of Sheffield, UK
  srolph1@sheffield.ac.uk /  www.simonrolph.me.uk /  srolph1@sheffield.ac.uk / @simon_rolph
 Personal StatementI am a population biologist interested in how comparative analyses of population models can provide insight into fundamental and applied questions about the nature of life history trade-offs and responses to environmental change. My research uses mathematical population modelling tools, integral projection models (IPMs) and matrix population models (MPMs), to produce simulated population models as an investigative framework for identifying best practises for comparative analyses.</description>

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Masters on Simon Rolph</title>
-    <link>/tags/masters/</link>
+    <link>/simonrolph/tags/masters/</link>
     <description>Recent content in Masters on Simon Rolph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Jul 2016 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/masters/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/simonrolph/tags/masters/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Is Fast-tracking From Undergraduate to PhD Student a Good Idea?</title>
-      <link>/blog_post/undergrad_to_phd/</link>
+      <link>/simonrolph/blog_post/undergrad_to_phd/</link>
       <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>/blog_post/undergrad_to_phd/</guid>
+      <guid>/simonrolph/blog_post/undergrad_to_phd/</guid>
       <description>https://www.elsevier.com/connect/9-things-you-should-consider-before-embarking-on-a-phd</description>
     </item>
     
     <item>
       <title>Another Year, Another Blog...</title>
-      <link>/blog_post/another-blog/</link>
+      <link>/simonrolph/blog_post/another-blog/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/blog_post/another-blog/</guid>
+      <guid>/simonrolph/blog_post/another-blog/</guid>
       <description>This is a wordy blog</description>
     </item>
     

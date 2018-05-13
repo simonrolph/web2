@@ -3,134 +3,134 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>/simonrolph/</loc>
     <lastmod>2018-04-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2018/04/25/test/</loc>
+    <loc>/simonrolph/post/2018/04/25/test/</loc>
     <lastmod>2018-04-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog_post/starting_a_phd/</loc>
+    <loc>/simonrolph/blog_post/starting_a_phd/</loc>
     <lastmod>2016-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog_post/undergrad_to_phd/</loc>
+    <loc>/simonrolph/blog_post/undergrad_to_phd/</loc>
     <lastmod>2016-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog_post/another-blog/</loc>
+    <loc>/simonrolph/blog_post/another-blog/</loc>
     <lastmod>2015-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/code_note/2015-07-23-r-rmarkdown/</loc>
+    <loc>/simonrolph/code_note/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/about-me/</loc>
+    <loc>/simonrolph/categories/about-me/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>/simonrolph/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/academia/</loc>
+    <loc>/simonrolph/tags/academia/</loc>
     <lastmod>2016-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/allotment/</loc>
+    <loc>/simonrolph/categories/allotment/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog_post/</loc>
+    <loc>/simonrolph/blog_post/</loc>
     <lastmod>2016-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/simonrolph/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/code_note/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/field_note/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/masters/</loc>
-    <lastmod>2016-07-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/phd/</loc>
-    <lastmod>2016-07-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/about/phd-overview/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/plot/</loc>
+    <loc>/simonrolph/code_note/</loc>
     <lastmod>2015-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>/simonrolph/field_note/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/simonrolph/tags/masters/</loc>
+    <lastmod>2016-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/simonrolph/tags/phd/</loc>
+    <lastmod>2016-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/simonrolph/about/phd-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/simonrolph/tags/plot/</loc>
+    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/simonrolph/post/</loc>
     <lastmod>2018-04-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/r-markdown/</loc>
+    <loc>/simonrolph/tags/r-markdown/</loc>
     <lastmod>2015-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/regression/</loc>
+    <loc>/simonrolph/tags/regression/</loc>
     <lastmod>2015-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/about/cv/</loc>
+    <loc>/simonrolph/about/cv/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/simonrolph/tags/</loc>
     <lastmod>2016-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/field_note/allotment_recap/</loc>
+    <loc>/simonrolph/field_note/allotment_recap/</loc>
   </url>
   
   <url>
-    <loc>/tags/undergraduate/</loc>
+    <loc>/simonrolph/tags/undergraduate/</loc>
     <lastmod>2016-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

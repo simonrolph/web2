@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Simon Rolph</title>
-    <link>/</link>
+    <link>/simonrolph/</link>
     <description>Recent content in Home on Simon Rolph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 25 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/simonrolph/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>test</title>
-      <link>/post/2018/04/25/test/</link>
+      <link>/simonrolph/post/2018/04/25/test/</link>
       <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/2018/04/25/test/</guid>
+      <guid>/simonrolph/post/2018/04/25/test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How Not To Start Your PhD</title>
-      <link>/blog_post/starting_a_phd/</link>
+      <link>/simonrolph/blog_post/starting_a_phd/</link>
       <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>/blog_post/starting_a_phd/</guid>
+      <guid>/simonrolph/blog_post/starting_a_phd/</guid>
       <description>1 2 3 4 5</description>
     </item>
     
     <item>
       <title>Is Fast-tracking From Undergraduate to PhD Student a Good Idea?</title>
-      <link>/blog_post/undergrad_to_phd/</link>
+      <link>/simonrolph/blog_post/undergrad_to_phd/</link>
       <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>/blog_post/undergrad_to_phd/</guid>
+      <guid>/simonrolph/blog_post/undergrad_to_phd/</guid>
       <description>https://www.elsevier.com/connect/9-things-you-should-consider-before-embarking-on-a-phd</description>
     </item>
     
     <item>
       <title>Another Year, Another Blog...</title>
-      <link>/blog_post/another-blog/</link>
+      <link>/simonrolph/blog_post/another-blog/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/blog_post/another-blog/</guid>
+      <guid>/simonrolph/blog_post/another-blog/</guid>
       <description>This is a wordy blog</description>
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/code_note/2015-07-23-r-rmarkdown/</link>
+      <link>/simonrolph/code_note/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>/code_note/2015-07-23-r-rmarkdown/</guid>
+      <guid>/simonrolph/code_note/2015-07-23-r-rmarkdown/</guid>
       <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
@@ -60,10 +60,10 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title>PhD Overview</title>
-      <link>/about/phd-overview/</link>
+      <link>/simonrolph/about/phd-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/phd-overview/</guid>
+      <guid>/simonrolph/about/phd-overview/</guid>
       <description>An introduction to my researchBackgroundWe observe an impressive diversity of life history strategies across the tree of life.
 OpportunityDecades of population biology has resulted in data on the demography of hundreds of plants and animal species.
 AimsHow can we use this demographic data, alongside a plethora of population modelling techniques, to ask fundamental and applied questions about life history strategies?</description>
@@ -71,10 +71,10 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title>Simon Rolph - CV</title>
-      <link>/about/cv/</link>
+      <link>/simonrolph/about/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/cv/</guid>
+      <guid>/simonrolph/about/cv/</guid>
       <description>Department of Animal and Plant Sciences, University of Sheffield, UK
  srolph1@sheffield.ac.uk /  www.simonrolph.me.uk /  srolph1@sheffield.ac.uk / @simon_rolph
 Personal StatementI am a population biologist interested in how comparative analyses of population models can provide insight into fundamental and applied questions about the nature of life history trade-offs and responses to environmental change. My research uses mathematical population modelling tools, integral projection models (IPMs) and matrix population models (MPMs), to produce simulated population models as an investigative framework for identifying best practises for comparative analyses.</description>
@@ -82,10 +82,10 @@ Personal StatementI am a population biologist interested in how comparative ana
     
     <item>
       <title>The Allotment Recap (October 2017 to March 2018)</title>
-      <link>/field_note/allotment_recap/</link>
+      <link>/simonrolph/field_note/allotment_recap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/field_note/allotment_recap/</guid>
+      <guid>/simonrolph/field_note/allotment_recap/</guid>
       <description>I have an allotment! Here’s a recap:
 August 2017Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ornare mi nisl, vel venenatis dui interdum in. Curabitur bibendum nisi eget leo molestie, a sollicitudin eros rutrum. Phasellus vel sollicitudin risus. Pellentesque eget nunc nisi. Donec efficitur molestie odio vel laoreet. 
 September 2017Subtitle about image
