@@ -1,24 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Field_notes on Simon Rolph</title>
-    <link>/field_notes/</link>
-    <description>Recent content in Field_notes on Simon Rolph</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/field_notes/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>The Allotment Recap</title>
-      <link>/field_notes/allotment_recap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/field_notes/allotment_recap/</guid>
-      <description>I have an allotment! Here’s a recap:
-August 2017September 2017October 2017Febrary 2018March 2018</description>
-    </item>
-    
-  </channel>
-</rss>

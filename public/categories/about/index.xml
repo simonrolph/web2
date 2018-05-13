@@ -1,24 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>About on Simon Rolph</title>
-    <link>/categories/about/</link>
-    <description>Recent content in About on Simon Rolph</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/categories/about/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Simon Rolph - CV</title>
-      <link>/about/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/cv/</guid>
-      <description>Education2016 - Present, University of Sheffield, PhD StudentPhD student at the University of Sheffield, Department of Animal and Plant science. Primary supervisor: Dr Dylan Childs, with supporting supervisors; Dr Rob Salguero-Gómez, Dr Jonathan Potts and Proffessor Rob Freckleton. President of the Animal and Plant Sciences Department PostGrad Soceity (June 2017-current)
-2013-2016, University of ExeterBSc (Hons) in Conservation Biology and Ecology at University of Exeter (Penryn Campus) 1st Class.</description>
-    </item>
-    
-  </channel>
-</rss>
