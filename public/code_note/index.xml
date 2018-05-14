@@ -2,24 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code_notes on Simon Rolph</title>
-    <link>/simonrolph/code_note/</link>
+    <link>/code_note/</link>
     <description>Recent content in Code_notes on Simon Rolph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/simonrolph/code_note/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/code_note/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/simonrolph/code_note/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+      <title>Simon&#39;s Git(Hub) Reference</title>
+      <link>/code_note/github-things/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/simonrolph/code_note/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/code_note/github-things/</guid>
+      <description>Create a new repo from existing filesAssuming you’ve already set up your ssh stuff
+git initgit add .git commit -m &amp;quot;first commit&amp;quot;git remote add origin git@github.com:simonrolph/repo.gitgit push -u origin masterCreating and pushing to a gh-pages branchgit branch gh-pagesgit push -u origin gh-pagesGo to https://github.com/username/repo/settings/ and change gh-pages to master branch
+Force pullgit fetch --allThen, you have two options:</description>
+    </item>
+    
+    <item>
+      <title>Visualising Matrix Population Models as Sankey Diagrams: a First Attempt with R Package riverplot</title>
+      <link>/code_note/sankey-mpms/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/code_note/sankey-mpms/</guid>
+      <description>What am I trying to achieve?Matrix population models (MPMs) describe transitions between discrete states. It’s all abut flow really, so how can we visualise this flow? Sankey diagrams are a specific type of flow diagram, in which the width of the arrows is shown proportionally to the flow quantity. There are lots of cool tools to make sankey diagrams but I thought I’d start from the simplist and work my way up.</description>
     </item>
     
   </channel>

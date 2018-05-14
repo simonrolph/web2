@@ -8,11 +8,9 @@ date: '2018-04-25'
 <div class="col-sm-7 centred">
 # Hi, I'm Simon Rolph
 
+I'm a PhD student at the University of Sheffield. I am a plant population biologist interested in how comparative analyses of population models can provide insight into fundamental and applied questions about the nature of life history trade-offs and responses to environmental change. I am always exploring new ways to visualise life history data and I am an advocate of open-access and reproducible research.
 
-
-I'm a PhD student at the University of Sheffield.
-
-I'm a huge fan of botanical gardens and I have a terrible habit of taking lots of pictures of plants and never getting around to identifying them.
+I'm a huge fan of botanical gardens and I have a terrible habit of taking lots of pictures of plants and never getting around to identifying them. I also like trains.
 </div>
 <div class="col-sm-1"></div>
 
@@ -27,7 +25,7 @@ I'm a huge fan of botanical gardens and I have a terrible habit of taking lots o
 <div class="row">
 <div class="col-md-4">
 
-<div class="img-reponsive hcent">![img](/img/life_hists.png)</div>
+<div class="img-reponsive hcent">![img](img/life_hists.png)</div>
 
 
 **Background**: we observe an impressive diversity of life history strategies across the tree of life.
@@ -37,7 +35,7 @@ I'm a huge fan of botanical gardens and I have a terrible habit of taking lots o
 <div class="col-md-4 ">
 
 
-<div class="img-reponsive hcent">![img](/img/compadre-logo.png)</div>
+<div class="img-reponsive hcent">![img](img/compadre-logo.png)</div>
 
 
 **Opportunity**: decades of population biology has resulted in data on the demography of hundreds of plants and animal species.
@@ -47,7 +45,7 @@ I'm a huge fan of botanical gardens and I have a terrible habit of taking lots o
 <div class="col-md-4">
 
  
-<div class="img-reponsive hcent">![img](/img/mpms.png)</div>
+<div class="img-reponsive hcent">![img](img/mpms.png)</div>
 
 
 **Aims**: how can we use this demographic data, alongside a plethora of population modelling techniques, to ask fundamental and applied questions about life history strategies?
@@ -56,19 +54,16 @@ I'm a huge fan of botanical gardens and I have a terrible habit of taking lots o
 </div> 
  
 <div class="hcent">
-<a role="button" href="/about/PhD-overview" class="btn btn-primary">Read more about my research</a>
+<a role="button" href="/about/phd-overview" class="btn btn-primary">Read more about my research</a>
 </div>
  
 <div class="hcent">
 
-![img](/img/TuosLogo.png){width=22%}  ![img](/img/ox-uni.png){width=40%} ![img](/img/Leverhulme.png)
+![img](img/TuosLogo.png){width=22%}  ![img](img/ox-uni.png){width=40%} ![img](img/Leverhulme.png)
 
 </div>
 
-<!--## Resources, notes, ramblings...
-
-Code notes are bits of code, field notes are things about wildlife and blog is a blog.
--->
+## Resources, notes, ramblings...
 
 
 

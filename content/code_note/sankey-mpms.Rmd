@@ -1,0 +1,235 @@
+---
+title: "Visualising Matrix Population Models as Sankey Diagrams: a First Attempt with R Package riverplot"
+date: 2018-05-12
+tools: ["R"]
+type: "resource"
+tags: ["R", "MPM", "Datavis"]
+subtitle: "On a quest to visualise the flow of matrix population models"
+image: "sankey.png"
+---
+
+## What am I trying to achieve?
+
+<div class="row">
+<div class="col-md-4">
+
+<div class="img-reponsive">![img](/img/compadre-logo.png)</div>
+
+</div>
+
+<div class="col-md-8">
+
+Matrix population models (MPMs) describe transitions between discrete states. It's all abut flow really, so how can we visualise this flow? Sankey diagrams are a specific type of flow diagram, in which the width of the arrows is shown proportionally to the flow quantity. There are lots of cool tools to make sankey diagrams but I thought I'd start from the simplist and work my way up. Here's an attempt to visualise MPMs as sankey diagrams using R package `riverplot`.
+
+</div>
+</div>
+
+```{r, echo = F}
+knitr::opts_chunk$set(fig.width=9, fig.height=5) 
+```
+
+## Code
+
+Firstly install the packages we need to use
+
+```{r}
+
+# for nice colours
+#install.packages("RColourBrewer")
+library("RColorBrewer")
+#display.brewer.all()
+
+# riverplot is the package used to draw Sankey Diagrams
+#install.packages("riverplot")
+library(riverplot)
+
+# load COMPADRE, as stored in an R object
+load("~/R/simon_website/content/code_note/COMPADRE_v.4.0.1.RData")
+
+```
+
+I have loaded in a version of the COMPADRE Plant Matrix Database, you can read about it [here](https://www.compadre-db.org/). It contains ~ 7000 Plant MPMs and associated meta-data. The following code doesn't really need to be in a function, it just made it easier to generate the examples at the bottom of this page. Basically this code takes the matrix, converts it into the list object that the river.plot function wants and plots it with a nice title from the COMPADRE metadata.
+
+```{r, message = F}
+# which MPM are we going to use from COMPADRE? by ID
+matrix_id <- 2000
+
+make_mpm_sankey <- function(matrix_id,mat = "A"){
+  # a simple MPM i was using to test the code
+  #matri <- matrix(c(0.1,0.2,0,0.1,0.3,0.2,0,0.1,0.4),nrow =3 )
+  #stage_labels <- c("seed","seedling","adult")
+  
+  # extract the survival matrix and the author labels for each stage
+  
+  matri <- compadre$mat[[matrix_id]][paste0("mat",mat)][[1]]
+  
+  stage_labels <- compadre$matrixClass[[matrix_id]]$MatrixClassAuthor
+  
+  # get the dimension of the MPM
+  mat_dim <- dim(matri)[1]
+  
+  # get the colours from the colour brewer palate, Greens is nice
+  colours <- brewer.pal(n = mat_dim, name = "Greens")
+  
+  #red if fecundity transitions
+  if (mat == "F"){
+    colours <- brewer.pal(n = mat_dim, name = "Reds")
+  }
+  
+  #make the names of the nodes under the convenction of s(stage number)t(0 or 1)
+  nodes <- paste0("s",rep(1:mat_dim,2),c(rep("t0",mat_dim),rep("t1",mat_dim)))
+  
+  edges <- list()
+  
+  # make the weird nested list thing for the edges object
+  # I in fact realised that edges can also be a dataframe so I didn't need to do all this loopy faff
+  for (i in 1:mat_dim){
+    from <- nodes[i]
+    listy <- list()
+    for(j in 1:mat_dim){
+      to <- nodes[j+mat_dim]
+      listy[[to]] <- matri[j,i]
+    }
+    edges[[from]] <- listy
+  }
+  
+  # make another weird list thing for the colours
+  node_styles <- list()
+  for (i in 1:length(nodes)){
+    listy <- list()
+    listy[["col"]] <- rep(colours,2)[i]
+    listy[["srt"]] <- 0
+    node_styles[[nodes[i]]] <- listy
+  }
+  
+  # make the plot
+  r <- makeRiver( nodes, 
+                  edges, 
+                  node_xpos= c( rep(1,mat_dim),rep(2,mat_dim)),
+                  node_labels = rep(stage_labels,2),
+                  node_styles = node_styles
+                  )
+  
+  riverplot(r,plot_area = 0.95)
+  
+}
+
+```
+
+## Examples
+
+I've picked some of the ones that looked nicest. I have been visualising survival/growth and fecundity separately because one is probabilities and one is number of offspring. Also, I should try visualising transitions to absorbing death states. Hmm...
+
+I've had to use `invisible(capture.output())` because the `makeRiver()` function spits out all sorts of outputs that gets very long with lots of life stages... 
+
+### *Anthyllis vulneraria*
+
+<div class="row">
+<div class="col-md-4">
+
+<div class="img-reponsive">![img](https://www.brc.ac.uk/plantatlas/sites/www.brc.ac.uk.plantatlas/files/styles/largest_1152_870/public/images/Anthyllis%20vulneraria%20Porth%20Towan.JPG?itok=Ss2-SEG7)</div>
+
+</div>
+
+<div class="col-md-8">
+
+*Anthyllis vulneraria* (common kidneyvetch, kidney vetch, woundwort) is a medicinal plant native to Europe. The name vulneraria means "wound healer". Anthyllis vulneraria reaches 5–40 centimetres (2.0–15.7 in) of height. The stem is simple or more often branched. The leaves are imparipinnate, glabrous or with scattered hairs on the upper face and silky hairs on the underside. The flower heads are spherical in shape and 10–20 millimetres (0.39–0.79 in) long. The petals are yellow in most sub-species, but red in *A. vulneraria var. coccinea*. Flowering takes place between June and September. The fruit is a legume. The fruits ripening takes place from July to October. [Wikipedia](https://en.wikipedia.org/wiki/Anthyllis_vulneraria) 
+
+</div>
+</div>
+
+<br>
+
+```{r, echo = T}
+# I've left echo = T on this block so you can see the code I used to plot each sankey diagram
+par(bg=NA) # transparent background
+
+# plot 1
+id <- 800
+#draw the river plots
+invisible(capture.output(make_mpm_sankey(id,mat = "U")))
+title("Survival/growth")
+invisible(capture.output(make_mpm_sankey(id,mat = "F")))
+title("Fecundity")
+
+print(paste0(compadre$metadata[id,]$Authors," (",compadre$metadata[matrix_id,]$YearPublication,")"))
+
+
+```
+
+### *Trollius europaeus*
+
+<div class="row">
+<div class="col-md-4">
+
+<div class="img-reponsive">![img](https://upload.wikimedia.org/wikipedia/commons/d/d4/Trollius_europaeus_020503.jpg)</div>
+
+</div>
+<div class="col-md-8">
+
+*Trollius europaeus* (globeflower) is a perennial plant of the family Ranunculaceae. The plant is native to Europe and Western Asia and is a protected species in Bulgaria. *Trollius europaeus* grows up to 60 cm high with a bright yellow, globe-shaped flower up to 3 cm across. The colourful petaloid sepals hide 5–15 inconspicuous true petals with nectaries at their base and, typically for the family, a large number of stamens. [Wikipedia](https://en.wikipedia.org/wiki/Trollius_europaeus)
+
+</div>
+</div>
+
+<br>
+
+```{r, echo = F}
+par(bg=NA) 
+
+#plot 2
+id <- 5210
+#draw the river plots
+invisible(capture.output(make_mpm_sankey(id,mat = "U")))
+title("Survival/growth")
+invisible(capture.output(make_mpm_sankey(id,mat = "F")))
+title("Fecundity")
+
+
+print(paste0(compadre$metadata[id,]$Authors," (",compadre$metadata[matrix_id,]$YearPublication,")"))
+
+```
+
+### *Calocedrus decurrens* 
+
+<div class="row">
+<div class="col-md-4">
+
+<div class="img-reponsive">![img](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Calocedrus_decurrens_Yosemite_NP.jpg/260px-Calocedrus_decurrens_Yosemite_NP.jpg)</div>
+
+</div>
+<div class="col-md-8">
+
+*Calocedrus decurrens*, with the common names incense cedar and California incense-cedar (syn. *Libocedrus decurrens Torr.*), is a species of conifer native to western North America, with the bulk of the range in the United States, from central western Oregon through most of California and the extreme west of Nevada, and also a short distance into northwest Mexico in northern Baja California. It grows at altitudes of 50–2,900 metres (160–9,510 ft). It is the most widely known species in the genus, and is often simply called 'incense cedar' without the regional qualifier. [Wikipedia](https://en.wikipedia.org/wiki/Calocedrus_decurrens)
+
+</div>
+</div>
+
+<br>
+
+
+```{r, echo = F}
+par(bg=NA) 
+
+#plot 3
+
+id <- 6500
+#draw the river plots
+invisible(capture.output(make_mpm_sankey(id,mat = "U")))
+title("Survival/growth")
+invisible(capture.output(make_mpm_sankey(id,mat = "F")))
+title("Fecundity")
+
+print(paste0(compadre$metadata[id,]$Authors," (",compadre$metadata[matrix_id,]$YearPublication,")"))
+```
+
+## Problems
+
+This is far from perfect. To start with the code isn't super reusable and versitile yet - I wouldn't think about putting it in a package right now, which would be a nice end goal for this sankey diagram MPM quest.
+
+ * Stage class labels go off the edge
+ * Stage class labels are not in the same y position at t = 0 and t = 1
+
+Anyway, it'll do as a first shot. Thanks for reading my first attempt at a R blog thing.
+
+

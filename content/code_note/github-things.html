@@ -1,0 +1,44 @@
+---
+title: "Simon's Git(Hub) Reference"
+date: 2018-05-12
+tools: ["Git"]
+type: "resource"
+tags: ["Console", "Git", "Github"]
+subtitle: "Git and GitHub Commands that I use repeatedly. Despite this, I fail to remember them, so here they are for when I forget."
+image: "github.jpg"
+---
+
+
+
+<div id="create-a-new-repo-from-existing-files" class="section level3">
+<h3>Create a new repo from existing files</h3>
+<p>Assuming you’ve already set up your ssh stuff</p>
+<pre><code>git init
+git add .
+git commit -m &quot;first commit&quot;
+git remote add origin git@github.com:simonrolph/repo.git
+git push -u origin master</code></pre>
+</div>
+<div id="creating-and-pushing-to-a-gh-pages-branch" class="section level3">
+<h3>Creating and pushing to a gh-pages branch</h3>
+<pre><code>git branch gh-pages
+git push -u origin gh-pages</code></pre>
+<p>Go to <a href="https://github.com/username/repo/settings/" class="uri">https://github.com/username/repo/settings/</a> and change <code>gh-pages</code> to master branch</p>
+</div>
+<div id="force-pull" class="section level3">
+<h3>Force pull</h3>
+<pre><code>git fetch --all</code></pre>
+<p>Then, you have two options:</p>
+<pre><code>git reset --hard origin/master</code></pre>
+<p>OR If you are on some other branch:</p>
+<pre><code>git reset --hard origin/&lt;branch_name&gt;</code></pre>
+<p><a href="https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files">Source</a></p>
+</div>
+<div id="force-push" class="section level3">
+<h3>Force Push</h3>
+<p>Push local stuff and ovwerwrite remote</p>
+<pre><code>git push origin &lt;your_branch_name&gt; --force</code></pre>
+<p>for example for force pushing to gh-pages branch</p>
+<pre><code>git push origin gh-pages --force</code></pre>
+<p><a href="https://stackoverflow.com/questions/5509543/how-do-i-properly-force-a-git-push">Source</a></p>
+</div>

@@ -5,6 +5,8 @@ categories: ["About me"]
 
 ## An introduction to my research
 
+I am a plant population biologist interested in how comparative analyses of population models can provide insight into fundamental and applied questions about the nature of life history trade-offs and responses to environmental change. My research uses the COMPADRE Plant Matrix Database alongside population modelling tools, integral projection models (IPMs) and matrix population models (MPMs), to produce simulated population models as an investigative framework for identifying best practices for comparative analyses. I am an advocate of open-access and reproducible research.
+
 <div class="row">
 
 <div class="col-sm-4">
@@ -14,7 +16,9 @@ categories: ["About me"]
 <div class="col-sm-8 centred">
 #### Background
 
-We observe an impressive diversity of life history strategies across the tree of life.
+Life history strategies are basically fancy words for life cycles, like frogs and butterflies and such. We observe an impressive diversity of life history strategies across the tree of life. Lets take some extreme examples, a specimen of the [Great Basin bristlecone pine](https://en.wikipedia.org/wiki/List_of_oldest_trees) has been found that is 5000 years old - that's incredible! And then you have *Arabidopsis*; a relative of mustard and a favourite among plant scientists for it's seed-to-seed lifespan of about a month, life in the fast lane eh?
+
+We want to be able to classify this diversity to be able to make useful generalisations, eg. to know whether a long-lived plant is more or less susceptible to the effects of climate change. One way of classifying life history strategies is placing them along a fast-slow continuum. At the fast end we have species with low survival (especially early in life), reach maturation quickly and then on the other end we have greater investment from parents in offspring survival resulting in higher survival but slower growth and later maturation. However, this fast-slow continiuum is very simplisic. 
 
 </div>
 </div>
@@ -30,7 +34,9 @@ We observe an impressive diversity of life history strategies across the tree of
 <div class="col-sm-8 centred">
 #### Opportunity
 
-Decades of population biology has resulted in data on the demography of hundreds of plants and animal species.
+Enter stage right: the COMPADRE Plant Matrix Database (and its animal twin the COMADRE Animal Matrix Database)! Decades of ecologists studying populations of plants and animals has resulted in data on the demography of hundreds of plants and animal species. And it's all in one fancy database. COMPADRE presents an incredible wealth of data that facilitates comparative analysis of life history straegies across the tree of life. 
+
+However, using COMPADRE isn't totally straight forward and presents plenty of challenges. The data in COMPADRE comes from studies carried out by different ecologists with different methods. We need to be sure that the results derived from COMPADRE comes from the biological underpinning of the data, as opposed to statistical artefacts that arise from the data. 
 
 </div>
 
@@ -47,7 +53,7 @@ Decades of population biology has resulted in data on the demography of hundreds
 <div class="col-sm-8 centred">
 #### Aims
 
-How can we use this demographic data, alongside a plethora of population modelling techniques, to ask fundamental and applied questions about life history strategies?
+So this is where my research comes in. How can we use this demographic data, alongside a plethora of population modelling techniques, to ask fundamental and applied questions about life history strategies? Nature is complicated, how can we use this wealth of demographic data to devise robust ways of classifying life history strategies. Secondly, data is messy, how can we develop methods to overcome these challenges posed by comparative analysis of demographic data.
 
 </div>
 

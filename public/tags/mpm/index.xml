@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MPM on Simon Rolph</title>
+    <link>/tags/mpm/</link>
+    <description>Recent content in MPM on Simon Rolph</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/mpm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visualising Matrix Population Models as Sankey Diagrams: a First Attempt with R Package riverplot</title>
+      <link>/code_note/sankey-mpms/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/code_note/sankey-mpms/</guid>
+      <description>What am I trying to achieve?Matrix population models (MPMs) describe transitions between discrete states. It’s all abut flow really, so how can we visualise this flow? Sankey diagrams are a specific type of flow diagram, in which the width of the arrows is shown proportionally to the flow quantity. There are lots of cool tools to make sankey diagrams but I thought I’d start from the simplist and work my way up.</description>
+    </item>
+    
+  </channel>
+</rss>

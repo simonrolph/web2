@@ -1,38 +1,68 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
-date: 2015-07-23
-tools: ["R"]
+title: "Simon's Git(Hub) Reference"
+date: 2018-05-12
+tools: ["Git"]
 type: "resource"
-tags: ["R Markdown", "plot", "regression"]
-subtitle: "sgfasgdkjasgkl"
+tags: ["Console", "Git", "Github"]
+subtitle: "Git and GitHub Commands that I use repeatedly. Despite this, I fail to remember them, so here they are for when I forget."
+image: "github.jpg"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE)
+### Create a new repo from existing files
+
+Assuming you've already set up your ssh stuff
+
 ```
-
-# R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars) 
-#test
-fit <- lm(dist ~ speed, data = cars)
-fit  
-```
-
-# Including Plots
-
-You can also embed plots. See Figure \@ref(fig:pie) for example:
-
-```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
-par(bg=NA)
-plot(c(2,2),c(1,2))
+git init
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:simonrolph/repo.git
+git push -u origin master
 ```
 
 
+### Creating and pushing to a gh-pages branch
 
+```
+git branch gh-pages
+git push -u origin gh-pages
+```
+
+Go to https://github.com/username/repo/settings/ and change `gh-pages` to master branch
+
+
+### Force pull
+
+```
+git fetch --all
+```
+
+Then, you have two options:
+
+```
+git reset --hard origin/master
+```
+
+OR If you are on some other branch:
+
+```
+git reset --hard origin/<branch_name>
+```
+
+[Source](https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files)
+
+### Force Push
+
+Push local stuff and ovwerwrite remote
+
+```
+git push origin <your_branch_name> --force
+```
+
+for example for force pushing to gh-pages branch
+
+```
+git push origin gh-pages --force
+```
+
+[Source](https://stackoverflow.com/questions/5509543/how-do-i-properly-force-a-git-push)

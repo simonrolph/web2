@@ -68,6 +68,7 @@ body{
 .shadowed {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    background-color: white;
 }
 
 .notshadowed {
@@ -99,4 +100,9 @@ nav{
 .register a:hover,
 .register a:focus {
     color:#4e4e4e;
+}
+
+.r {
+  background-color: rgba(120, 200, 255, 0.3);
+  padding: 2px;
 }

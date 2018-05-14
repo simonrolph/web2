@@ -2,75 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Simon Rolph</title>
-    <link>/simonrolph/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Simon Rolph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/simonrolph/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Academia</title>
-      <link>/simonrolph/tags/academia/</link>
-      <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
+      <link>/tags/academia/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/simonrolph/tags/academia/</guid>
+      <guid>/tags/academia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Console</title>
+      <link>/tags/console/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/console/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Datavis</title>
+      <link>/tags/datavis/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/datavis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>/tags/git/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>/tags/github/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MPM</title>
+      <link>/tags/mpm/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mpm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Masters</title>
-      <link>/simonrolph/tags/masters/</link>
-      <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
+      <link>/tags/masters/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/simonrolph/tags/masters/</guid>
+      <guid>/tags/masters/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PhD</title>
-      <link>/simonrolph/tags/phd/</link>
-      <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
+      <link>/tags/phd/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/simonrolph/tags/phd/</guid>
+      <guid>/tags/phd/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Plot</title>
-      <link>/simonrolph/tags/plot/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/simonrolph/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>/simonrolph/tags/r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/simonrolph/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Regression</title>
-      <link>/simonrolph/tags/regression/</link>
-      <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/simonrolph/tags/regression/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Undergraduate</title>
-      <link>/simonrolph/tags/undergraduate/</link>
-      <pubDate>Sat, 23 Jul 2016 00:00:00 +0000</pubDate>
+      <link>/tags/undergraduate/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>/simonrolph/tags/undergraduate/</guid>
+      <guid>/tags/undergraduate/</guid>
       <description></description>
     </item>
     

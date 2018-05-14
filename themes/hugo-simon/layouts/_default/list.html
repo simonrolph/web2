@@ -10,14 +10,14 @@
 
 {{ .Content }}
 
-<!--
+
 
 {{ range (where .Data.Pages "Section" "!=" "about") }}
 
     
 <div class="row register" >
 <div class="col-md-4">
-    <img class="shadowed" src="{{ relURL (print "/img/" .Params.image ) }}">
+    <img class="shadowed" src="{{ relURL (print "/img/thumbs/" .Params.image ) }}">
 </div>
     
     
@@ -52,7 +52,6 @@
      
     {{ end }}
     
-    -->
 
 
 

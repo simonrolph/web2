@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Simon Rolph</title>
-    <link>/simonrolph/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Simon Rolph</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="/simonrolph/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About me</title>
-      <link>/simonrolph/categories/about-me/</link>
+      <link>/categories/about-me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/simonrolph/categories/about-me/</guid>
+      <guid>/categories/about-me/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Allotment</title>
-      <link>/simonrolph/categories/allotment/</link>
+      <link>/categories/allotment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/simonrolph/categories/allotment/</guid>
+      <guid>/categories/allotment/</guid>
       <description></description>
     </item>
     

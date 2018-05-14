@@ -3,135 +3,127 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/simonrolph/</loc>
+    <loc>/about/undergrad_to_phd/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/code_note/github-things/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/code_note/sankey-mpms/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2018-04-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/simonrolph/post/2018/04/25/test/</loc>
-    <lastmod>2018-04-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/simonrolph/blog_post/starting_a_phd/</loc>
-    <lastmod>2016-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/simonrolph/blog_post/undergrad_to_phd/</loc>
-    <lastmod>2016-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/simonrolph/blog_post/another-blog/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/simonrolph/code_note/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/simonrolph/categories/about-me/</loc>
+    <loc>/categories/about-me/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/about/</loc>
+    <loc>/about/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/tags/academia/</loc>
-    <lastmod>2016-07-23T00:00:00+00:00</lastmod>
+    <loc>/tags/academia/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/categories/allotment/</loc>
+    <loc>/categories/allotment/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/blog_post/</loc>
-    <lastmod>2016-07-23T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/categories/</loc>
+    <loc>/code_note/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/code_note/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
+    <loc>/tags/console/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/field_note/</loc>
+    <loc>/tags/datavis/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/tags/masters/</loc>
-    <lastmod>2016-07-23T00:00:00+00:00</lastmod>
+    <loc>/tags/git/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/tags/phd/</loc>
-    <lastmod>2016-07-23T00:00:00+00:00</lastmod>
+    <loc>/tags/github/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/about/phd-overview/</loc>
-  </url>
-  
-  <url>
-    <loc>/simonrolph/tags/plot/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
+    <loc>/tags/mpm/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/post/</loc>
-    <lastmod>2018-04-25T00:00:00+00:00</lastmod>
+    <loc>/tags/masters/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
+    <loc>/tags/phd/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/tags/regression/</loc>
-    <lastmod>2015-07-23T00:00:00+00:00</lastmod>
+    <loc>/about/phd-overview/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/about/cv/</loc>
+    <loc>/about/cv/</loc>
   </url>
   
   <url>
-    <loc>/simonrolph/tags/</loc>
-    <lastmod>2016-07-23T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/simonrolph/field_note/allotment_recap/</loc>
+    <loc>/about/allotment_recap/</loc>
   </url>
   
   <url>
-    <loc>/simonrolph/tags/undergraduate/</loc>
-    <lastmod>2016-07-23T00:00:00+00:00</lastmod>
+    <loc>/tags/undergraduate/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
