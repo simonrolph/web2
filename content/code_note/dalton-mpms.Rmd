@@ -1,0 +1,117 @@
+---
+title: "Visualising Matrix Population Models as Sankey Diagrams: a First Attempt with R Package riverplot"
+date: 2018-05-12
+tools: ["R"]
+type: "resource"
+tags: ["R", "MPM", "Datavis"]
+subtitle: "On a quest to visualise the flow of matrix population models"
+image: "sankey.png"
+---
+
+
+
+```{r}
+
+library("RColorBrewer")
+
+library(ggplot2)
+
+# load COMPADRE, as stored in an R object
+load("~/R/simon_website/content/code_note/COMPADRE_v.4.0.1.RData")
+
+```
+
+```{r}
+frames <- 100
+start_pop <- 1000
+matri <- matrix(c(0.1,0.3,0,0.1,0.1,0.3,0,0.1,0.3),nrow =3 )
+
+matri <- compadre$mat[[500]][paste0("matU")][[1]]
+
+
+mat_dim <- dim(matri)[1]
+#stage_labels <- c("seed","seedling","adult")
+
+library(gridExtra)
+
+
+
+colours <- brewer.pal(n = mat_dim, name = "Greens")
+```
+
+
+Functions
+
+```{r}
+stoch_stage <- function(stage,matri){
+  mat_dim <- dim(matri)[1]
+  probs <- matri[,stage]
+  prob_death <- 1-sum(probs)
+  sample(1:(mat_dim+1),1,prob = c(probs,prob_death))
+}
+
+```
+
+```{r}
+
+growth_data <- data.frame(org_id = 1:start_pop,age = rep(1,start_pop),stage = rep(1,start_pop),active = rep(T,start_pop),stringsAsFactors = F)
+at_death_data <- na.omit(data.frame(org_id = NA,age = NA,stage = NA))
+
+for (i in 1:frames){
+  growth_data_this_step <- growth_data[growth_data$active == T,]
+  
+  growth_data_next_step <- na.omit(data.frame(org_id = NA,age = NA,stage = NA,active = NA))
+
+  if (nrow(growth_data_this_step) != 0){
+    for (ii in 1:nrow(growth_data_this_step)){
+      org <- growth_data_this_step[ii,]
+      
+      org$age <- org$age+1
+      
+      stage_temp <- org$stage
+      
+      org$stage <- stoch_stage(org$stage,matri= matri)
+      
+      if(org$stage != (mat_dim+1)){ # if not dead, then add row to data frame
+        growth_data_next_step <- rbind(growth_data_next_step,org)
+      } else {
+        death <- data.frame(org_id = org$org_id,age = org$age-1, stage = stage_temp)
+        at_death_data <- rbind(at_death_data,death)
+      }
+      
+    }
+  }
+  
+  growth_data$active <- F
+  growth_data <- rbind(growth_data,growth_data_next_step)
+}
+  
+
+at_death_data2 <- at_death_data %>% group_by(age,stage) %>% summarise(count = n()) %>% as.data.frame()
+
+at_death_data3 <- at_death_data2 
+at_death_data3$org_id <- 1:nrow(at_death_data3)
+
+p.trajs <- ggplot(growth_data,aes(x = age,y = stage,group = org_id,colour = as.factor(stage)))+
+  geom_line(alpha = 0.7)+
+  theme_classic()+
+  scale_color_manual(values = colours)+
+  geom_point(data=at_death_data3,aes(size = count))+ 
+  guides(colour=FALSE,size = F)
+
+
+p.deaths <- ggplot(data = at_death_data2,aes(x = age,y=count, fill= as.factor(stage)) )+
+  geom_bar(stat = "identity")+
+  theme_classic()+
+  scale_fill_manual(values = colours)+
+  guides(fill=FALSE)
+
+grid.arrange(p.trajs, p.deaths, nrow = 2)
+
+
+
+
+
+```
+
+
