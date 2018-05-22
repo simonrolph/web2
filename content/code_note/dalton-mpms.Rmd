@@ -15,6 +15,10 @@ image: "sankey.png"
 library("RColorBrewer")
 
 library(ggplot2)
+library(dplyr)
+
+#install.packages("magick")
+library(magick)
 
 # load COMPADRE, as stored in an R object
 load("~/R/simon_website/content/code_note/COMPADRE_v.4.0.1.RData")
@@ -22,11 +26,11 @@ load("~/R/simon_website/content/code_note/COMPADRE_v.4.0.1.RData")
 ```
 
 ```{r}
-frames <- 100
-start_pop <- 1000
+frames <- 25
+start_pop <- 500
 matri <- matrix(c(0.1,0.3,0,0.1,0.1,0.3,0,0.1,0.3),nrow =3 )
 
-matri <- compadre$mat[[500]][paste0("matU")][[1]]
+matri <- compadre$mat[[6500]][paste0("matU")][[1]]
 
 
 mat_dim <- dim(matri)[1]
@@ -54,8 +58,12 @@ stoch_stage <- function(stage,matri){
 
 ```{r}
 
+dev.new()
+
 growth_data <- data.frame(org_id = 1:start_pop,age = rep(1,start_pop),stage = rep(1,start_pop),active = rep(T,start_pop),stringsAsFactors = F)
 at_death_data <- na.omit(data.frame(org_id = NA,age = NA,stage = NA))
+
+img <- image_graph(600, 600, res = 96)
 
 for (i in 1:frames){
   growth_data_this_step <- growth_data[growth_data$active == T,]
@@ -84,30 +92,61 @@ for (i in 1:frames){
   
   growth_data$active <- F
   growth_data <- rbind(growth_data,growth_data_next_step)
+
+  #plotting
+  
+  at_death_data2 <- at_death_data %>% group_by(age,stage) %>% summarise(count = n()) %>% as.data.frame()
+
+  at_death_data3 <- at_death_data2 
+  at_death_data3$org_id <- 1:nrow(at_death_data3)
+  
+  
+  p.stages <- growth_data %>% 
+    filter(active) %>% 
+    group_by(stage) %>% 
+    summarise(freq = n()) %>% 
+    ggplot(aes(x = as.integer(stage),y = freq,fill = as.factor(stage)))+
+    geom_bar(stat = "identity")+
+    xlim(0.4,mat_dim+0.6)+
+    coord_flip()+
+    scale_fill_manual(values = colours)+
+    theme_classic()+
+    guides(colour=FALSE,size = F,fill = F)
+  
+  
+  p.trajs <- ggplot(growth_data,aes(x = age-1,y = stage,group = org_id,colour = as.factor(stage)))+
+    geom_line(alpha = 0.7,position =position_dodge(width=0.2))+
+    theme_classic()+
+    geom_point(data=at_death_data3,aes(size = count,fill = as.factor(stage)),pch = 21,colour = "black")+ 
+    scale_color_manual(values = colours)+
+    scale_fill_manual(values = colours)+
+    guides(colour=FALSE,size = F,fill = F)+
+    ylim(0.4,mat_dim+0.6)+
+    xlim(0,frames)+
+    labs(x = "Age",y = "Life stage")
+  
+  
+  p.deaths <- ggplot(data = at_death_data2,aes(x = age-1,y=count, fill= as.factor(stage)) )+
+    geom_bar(stat = "identity")+
+    theme_classic()+
+    scale_fill_manual(values = colours)+
+    guides(fill=FALSE)+
+    xlim(-1,frames)+
+    ylim(0,as.numeric((1.1-colSums(matri)[1])*start_pop))+
+    labs(x = "Age at death",y = "Count")
+  
+  print(grid.arrange(p.trajs, p.stages, p.deaths, nrow = 2))
+  
+  #Sys.sleep(0.1)
+  
 }
   
+dev.off()
+animation <- image_animate(img, fps = 4)
 
-at_death_data2 <- at_death_data %>% group_by(age,stage) %>% summarise(count = n()) %>% as.data.frame()
+print(animation)
 
-at_death_data3 <- at_death_data2 
-at_death_data3$org_id <- 1:nrow(at_death_data3)
-
-p.trajs <- ggplot(growth_data,aes(x = age,y = stage,group = org_id,colour = as.factor(stage)))+
-  geom_line(alpha = 0.7)+
-  theme_classic()+
-  scale_color_manual(values = colours)+
-  geom_point(data=at_death_data3,aes(size = count))+ 
-  guides(colour=FALSE,size = F)
-
-
-p.deaths <- ggplot(data = at_death_data2,aes(x = age,y=count, fill= as.factor(stage)) )+
-  geom_bar(stat = "identity")+
-  theme_classic()+
-  scale_fill_manual(values = colours)+
-  guides(fill=FALSE)
-
-grid.arrange(p.trajs, p.deaths, nrow = 2)
-
+image_write(animation, "test.gif")
 
 
 
