@@ -20,27 +20,40 @@ library(dplyr)
 #install.packages("magick")
 library(magick)
 
+#install.packages("stringr")
+library(stringr)
+
 # load COMPADRE, as stored in an R object
 load("~/R/simon_website/content/code_note/COMPADRE_v.4.0.1.RData")
 
 ```
 
 ```{r}
-frames <- 25
-start_pop <- 500
+frames <- 40
+start_pop <- 100
 matri <- matrix(c(0.1,0.3,0,0.1,0.1,0.3,0,0.1,0.3),nrow =3 )
 
-matri <- compadre$mat[[6500]][paste0("matU")][[1]]
+matri_id <- 1700
+
+matri <- compadre$mat[[matri_id]][paste0("matU")][[1]]
+stage_labels <- compadre$matrixClass[[matri_id]]$MatrixClassAuthor
+
+matri
+stage_labels
+
+stage_labels <- str_wrap(stage_labels,width = 55)
 
 
 mat_dim <- dim(matri)[1]
-#stage_labels <- c("seed","seedling","adult")
+
+text_labels <- data.frame(stage = 1:mat_dim,y = rep(0.1,mat_dim),lab = stage_labels)
 
 library(gridExtra)
 
 
 
 colours <- brewer.pal(n = mat_dim, name = "Greens")
+names(colours) <- c(1:mat_dim)
 ```
 
 
@@ -100,20 +113,29 @@ for (i in 1:frames){
   at_death_data3 <- at_death_data2 
   at_death_data3$org_id <- 1:nrow(at_death_data3)
   
+  stage_data <- text_labels
   
-  p.stages <- growth_data %>% 
+  stage_data2 <- growth_data %>% 
     filter(active) %>% 
     group_by(stage) %>% 
-    summarise(freq = n()) %>% 
-    ggplot(aes(x = as.integer(stage),y = freq,fill = as.factor(stage)))+
+    summarise(n = n()) %>% 
+    mutate(freq = n / sum(n)) %>%
+    as.data.frame()
+  
+  stage_data <- left_join(stage_data,stage_data2, by = "stage")
+  
+  p.stages <- ggplot(data = stage_data, aes(x = as.integer(stage),y = freq,fill = as.factor(stage),label = lab))+
     geom_bar(stat = "identity")+
-    xlim(0.4,mat_dim+0.6)+
-    coord_flip()+
+    ylim(0,1)+
+    labs(y = "Population composition",x = "Life stage")+
+    geom_text(aes(y = y),hjust = 0,size = 2.5)+
+    scale_x_continuous(breaks = c(1:mat_dim),limits = c(0.4,mat_dim+0.6))+
     scale_fill_manual(values = colours)+
     theme_classic()+
-    guides(colour=FALSE,size = F,fill = F)
-  
-  
+    guides(colour=FALSE,size = F,fill = F)+
+    coord_flip()
+    
+
   p.trajs <- ggplot(growth_data,aes(x = age-1,y = stage,group = org_id,colour = as.factor(stage)))+
     geom_line(alpha = 0.7,position =position_dodge(width=0.2))+
     theme_classic()+
